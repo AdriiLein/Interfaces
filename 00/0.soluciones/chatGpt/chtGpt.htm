@@ -1,0 +1,47 @@
+<script>
+/*
+Crea una función JS usando IA que sume, reste, multiplique dos números en js
+*/
+
+/*
+solucion humano
+*/
+function suma(a,b){
+  document.write("<b>HUMANO</b><br/>");
+  document.write('entrada: ',a,', ',b,'<br/>a+b=',a+b,'<br/>a-b=',a-b,'<br/>a*b=',a*b);
+}
+
+
+function addAndSubtract(num1, num2) {
+/*
+https://echatgpt.org/es/chat
+:> an example of a JavaScript simple function that adds and subtracts two numbers and displays the results per screen
+*/
+
+  document.write("<br/><br/><b>IA https://echatgpt.org/es/chat</b><br/>"); 
+/*
+  let sum = num1 + num2;
+  let difference = num1 - num2;
+  document.getElementById("result").innerHTML = `Sum: ${sum}, Difference: ${difference}`;
+  nota: No vale directamente sino creamos 'result' lo cambiamos por document.write
+*/
+  var sum = num1 + num2;
+  var difference = num1 - num2;
+  document.write(`Sum: ${sum}, Difference: ${difference}`);
+}
+// llamadas
+document.write("<b>Crea una función JS usando IA que sume, reste, multiplique dos números en js</b><br/><br/>");
+suma(10,5);
+addAndSubtract(10, 5);
+
+/*
+Desventajas
+La soluciones pueden tener entorno asociado, librerias, dom, ..
+El codigo no es el mas simple, puede usar funciones mas avanzadas
+Esta en ingles
+
+Ventajas
+Resuelve la logica de programacion
+*/
+
+</script>

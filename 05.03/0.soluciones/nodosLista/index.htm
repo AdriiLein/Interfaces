@@ -1,0 +1,259 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<script>
+"use strict"
+/*
+tips: addEventListener,getElementById,querySelectorAll,
+*/
+var m1,m2;
+var contador='';
+var maxEle=14;
+function iniciar(){
+	document.write('<b>MANEJAR UNA LISTA DE NODOS</b><br/><br/>'); // write borrar el body
+
+	const w=290;
+	cM1(); // primera columna
+	cLista(m1,w); // contenedor de nodos
+	cM2(); // segunda columna
+
+	var o1=cn(m1,'button','bPon','añadir al final',w+10);
+	o1.addEventListener('click',addUltimo);
+	cSalto(m1);	
+
+	var o1=cn(m1,'button','bFin','añadir al inicio',w+10);
+	o1.addEventListener('click',addPrimero);	
+	cSalto(m1);	
+
+	var o1=cn(m1,'button','bPonPos','añadir delante posición',w-12); 
+	o1.addEventListener('click',insertarPosicion);		
+	cni(m1,'text','iPos',0,22);
+	cSalto(m1); 
+
+	var o1=cn(m1,'button','bPonPos','añadir delante del elemento',w-12); 
+	o1.addEventListener('click',insertarElemento);	
+	cni(m1,'text','iEle','A',22);
+	cSalto(m1); 
+
+	var o1=cn(m1,'button','bPonPos','cambiar todos los colores',w+10); 
+	o1.addEventListener('click',changeAllColor);	
+	cSalto(m1); 
+
+	var o1=cn(m1,'button','bPonPos','cambiar impares colores',w+10); 
+	o1.addEventListener('click',changeEvenColor);	
+	cSalto(m1); 
+
+	var o1=cn(m1,'button','bPonPos','cambiar color elemento',w-12); 
+	o1.addEventListener('click',changeEleColor)		
+	cni(m1,'text','cEle','A',22);
+	cSalto(m1); 
+
+	var o1=cn(m1,'button','bPonPos','borrar primero',w+10); 
+	o1.addEventListener('click',delFirst);	
+	cSalto(m1); 	
+
+	addUltimo();
+	addUltimo();
+	addUltimo();
+	info();
+}
+/* LAYOUT */
+function cM2(){
+	m2=cn(document.body,'div','m2','info',300);
+	//ele.style.float='left';
+	m2.style.border='1px solid';
+	m2.style.height='330px';
+	m2.style.float='left';
+	m2.style.margin='5px';	
+	cSalto(m1);
+}
+function cM1(){
+	m1=cn(document.body,'div','m1','');
+	m1.style.float='left';
+	m1.style.border='1px solid #FFF';
+	m1.style.height='100%';	
+}
+function cLista(p,w){
+	const ele=cn(p,'div','dLista','');/*contenedor de divs*/
+	ele.style.border='1px solid';
+	ele.style.height='42px';
+	ele.style.width=w+'px';
+	ele.style.display='flex';
+	//ele.style.flexWrap='nowrap';
+	ele.style.alignItems='center';
+	ele.style.justifyContent='center';	
+}
+function cSalto(p){
+	cn(p,'div','',' ');
+}
+/* FUNCIONALES */
+function info(){
+	//let ltr=String.fromCharCode(64+contador);
+	const ele=document.getElementById('m2');
+	const n=document.querySelectorAll('#dLista>div');
+	//if(n.length==0){contador='A'}
+	let txt='';
+	if (n.length==0){
+		txt='no hay elementos';		
+	}else{
+		txt='último elemento creado: '+contador;
+		txt+='<br/>numero de elementos: '+n.length;		
+	}
+	const nlt=document.querySelectorAll('#dLista>div');
+	const nar=[];
+	for (let i=0;i<nlt.length;i++){
+		nar.push(nlt[i].id);
+	}
+	nar.sort()
+	for (let i=0;i<nar.length;i++){
+		const ele=document.getElementById(nar[i]);
+		let color=ele.style.backgroundColor;
+		if (color==''){
+			color='rgb(255, 255, 255)';
+		}
+		txt+='<br/>'+ele.innerHTML+'-'+color;
+	}
+	ele.innerHTML=txt;
+}
+function addUltimo(){
+	console.log('addUltimo');
+	const ele=cItem();
+	if (ele==undefined){return;}
+	let z1=document.getElementById('dLista');
+	z1.appendChild(ele);
+	info();		
+}
+function addPrimero(){
+	console.log('addPrimero');
+	const ele=cItem();
+	if (ele==undefined){return;}	
+	let z1=document.getElementById('dLista');
+	let z2=document.querySelectorAll('#dLista>div');
+	console.log(z1,z2);
+	if (z2.length==0){
+		z1.appendChild(ele);
+	}else{
+		z1.insertBefore(ele,z2[0]);
+	}
+	info();
+}
+function insertarPosicion(){
+	console.log('insertarPosicion');
+	let pos=document.getElementById('iPos').value;
+	insertPos(pos);
+}
+function insertarElemento(){
+	console.log('insertarElemento');
+	let nel=document.getElementById('iEle').value;
+	let nlt=document.querySelectorAll('#dLista>div');
+	for (var i=0;i<nlt.length;i++){
+		if(nlt[i].innerHTML==nel){break;};
+	}
+	console.log(nel,nlt,i);
+	insertPos(i);
+	info();
+}
+function insertPos(x){
+	const ele=cItem();
+	if (ele==undefined){return;}	
+	let z1=document.getElementById('dLista');
+	let z2=document.querySelectorAll('#dLista>div');
+	z1.insertBefore(ele,z2[x]);	
+	info();
+}
+
+function changeAllColor(){
+	let nlt=document.querySelectorAll('#dLista>div');
+	for (var i=0;i<nlt.length;i++){
+		nlt[i].style.backgroundColor=getColor();
+	}	
+	info();
+}
+function changeEvenColor(){
+	console.log('changeEvenColor');
+	let nlt=document.querySelectorAll('#dLista>div');
+	for (var i=0;i<nlt.length;i+=2){
+		nlt[i].style.backgroundColor=getColor();
+	}	
+	info();
+}
+function changeEleColor(){
+	console.log('changeEleColor');
+	let nel=document.getElementById('cEle').value;	
+	let nlt=document.getElementById('n'+nel);
+	if (nlt==undefined){return;}
+	nlt.style.backgroundColor=getColor();
+	info();
+}
+function delFirst(){
+	console.log('delFirst');
+	//let z1=document.getElementById('dLista').firstChild;
+	let z0=document.getElementById('dLista');
+	let z1=document.querySelectorAll('#dLista>div')[0];
+	//z1.parentNode.removeChild(z1);
+	z0.removeChild(z1);
+	info();
+}
+function cn(p,tipo,id,inner,w){
+	const ele = document.createElement(tipo);
+	ele.id=id;
+	ele.style.width=w+'px';
+	ele.style.padding='4px';
+	ele.innerHTML=inner;
+	p.appendChild(ele);
+	return ele;
+}
+function cni(p,tipo,id,v,w){
+	const ele=cn(p,'input',id,'',0);
+	ele.value=v;
+	ele.style.width=w+'px';	
+	ele.setAttribute('type', tipo);
+	return ele;
+}
+function cItem(){
+	const cnt=document.querySelectorAll('#dLista>div').length;
+	if (cnt>maxEle){return} // maximo items alcanzado		
+	const ele = document.createElement('div');
+	//ele.innerHTML=String.fromCharCode(64+contador);
+	ele.innerHTML=getFreeLetter();
+	contador=ele.innerHTML;
+	ele.style.border='1px solid';	
+	ele.style.width='240px';
+	//ele.style.height='100%';
+	ele.style.margin='3px';
+	ele.style.textAlign='center';	
+	ele.id='n'+ele.innerHTML;
+	return ele;
+}
+function getFreeLetter(){
+	/*
+	recorrer abecedario hasta encontrar letra que no esta
+	*/
+	for (let i=65;i<84;i++){
+		let z0=String.fromCharCode(i);
+		let z1=document.getElementById('n'+z0);
+		if (z1==undefined){return z0;}
+	}
+	return 'Z'; // error !!!
+}
+function getColor(){
+	var r=aleatorio(0,255).toString(16).padStart(2,0); // pasar a hexadecimal como cadena
+	var g=aleatorio(0,255).toString(16).padStart(2,0);  
+	var b=aleatorio(0,255).toString(16).padStart(2,0);
+	console.log(r,g,b);	
+	return '#'+r+g+b; // color en css tres hexadecimales
+}
+function aleatorio(a,b) {
+	return Math.round(Math.random()*(b-a)+parseInt(a));
+}
+window.onload=iniciar;
+</script>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html> 

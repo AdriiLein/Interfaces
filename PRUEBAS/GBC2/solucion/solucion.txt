@@ -1,0 +1,21 @@
+Reglas incumplidas de usabilidad y donde esta en el código:
+
+01. Lo mas relevante tiene que ir arriba, orden visual incorrecto (titulo).
+
+02. Faltas de ortografia dificultan la comprensión de la página (restaurante).
+
+03. Tamaño de fuente no se lee dificulta la comprensión de la pagina (email).
+
+04. Alineación incorrecta, no agrupa correctamente los contenidos (contactpuedes).
+
+05. Elementos iguales deben tener el mismo aspecto, titulos a diferente tamaño (titulos).
+
+06. Colores poco contrastados (marron y negro).
+
+07. Un elemento resalta si los otros son uniformes (mucha negrita).
+
+08. Texto no necesario necesario simplificar (pedidos).
+
+09. Fuera del foco del usuario y del orden visual, alineacion titulo.
+
+10. Textos cortados no se entienden dificulta la compransión (title).

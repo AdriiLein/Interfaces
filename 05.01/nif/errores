@@ -1,0 +1,7 @@
+Lista de errores
+================
+
+'número no es válido'; no es un numero
+'número fuera de rango'; solo son validos enteros de 8 cifras
+'letra fuera de rango A-Z (ni I,O)'; letras válidas para el nif
+'La letra o el número proporcionados no son correctos en el calculo';

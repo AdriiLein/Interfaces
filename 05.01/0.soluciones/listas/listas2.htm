@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>listas2</title>
+
+<script>
+
+// version1 sort no seguro
+// version2 sort seguro
+
+// GLOBALES
+const nNum=10; // numero de elementos del array
+const nMax=1000; // numero maximo generado
+var lista=[]; // tambien const
+
+// MAIN
+function iniciar(){
+	// primer nivel llamada a las funciones
+	var res='<h2>array de objetos</h2>'; // cadena de impresion
+	generarDatos();
+	res+=A_printFirstObject()+'<br/>';
+	res+=B_printFirstObject()+'<br/>';
+	res+='Ordena los objetos e imprime el atributo <b>versión</b>:<br/>';
+	res+='* lista: '+printVersion()+'<br/>';
+	ascendente(); // ordena lista[]
+	res+='* ascendente: '+printVersion()+'<br/>';	
+	descendente(); // ordena lista[]
+	res+='* descendente: '+printVersion()+'<br/>';
+	res+='* media: '+media2()+'<br/>';	
+	res+='* maximo: '+maximo()+'<br/>';	
+	res+='* minimo: '+minimo()+'<br/>';	
+	res+='* suma: '+suma()+'<br/>';
+	res+='* filtra (0,5): '+filtra(0,5)+'<br/>';
+	document.write(res);
+}
+function generarDatos(){
+	for (j=0;j<nNum;j++){
+		var z={
+			color:colorRnd(),
+			texto:txtRnd(10),
+			nivel:nivelRnd('ABC'),
+			version:aleatorio(0,9)
+		};
+		lista[j]=z; // cramos los indices del array
+	}
+	console.log(lista);	
+}
+function printVersion(){
+	var res='';
+	for (x of lista){
+		res+=x.version+' ';
+	}
+	return res;
+}
+function filtra(a,b){
+	var res='';
+	for (x of lista){
+		if( x.version >= a && x.version <= b ){
+			res+=x.version+' ';
+		}
+	}
+	return res;
+}
+function media2(){
+	var s=0,n=lista.length;
+	for (x of lista){s+=x.version;}
+	return (s/n);
+}
+function suma(){
+	var s=0;
+	for (x of lista){s+=x.version;}
+	return s;
+}
+function media1(){
+	// no accede al atributo !!!
+	console.log('len: ',lista.length);
+	return lista.reduce(function(total,value){return total+value.version})/lista.length;
+}
+function minimo(){
+	ascendente();
+	return lista[0].version;
+}
+function maximo(){
+	descendente();
+	return lista[0].version;
+}
+function descendente(){
+	lista.sort(function(a, b){return b.version - a.version});
+	return lista.join(' ');
+}
+function ascendente(){
+	lista.sort(function(a, b){return a.version - b.version});
+}
+function A_printFirstObject(){
+	// imprime los atributos y valores de un objeto
+	var res='Primer objeto de la lista (con for)= ';
+	for (x in lista[0]){res+=x+':'+lista[0][x]+','}
+	return res.substring(0,res.length - 1); // eliminar el ultimo caracter la coma
+}
+function B_printFirstObject(){
+	// otra forma de imprimir: eliminar comillas, serializar para tener el texto, imprimir
+	console.log('paso1 (objeto) ',lista[0]);
+	console.log('paso2 (objeto como texto) ',JSON.stringify(lista[0]));
+	console.log('paso3 (objeto como texto con reemplazos)',JSON.stringify(lista[0]).replace(/\"|\{|\}/g,'')); // " { }
+	console.log('paso4 (array de objetos como texto con reemplazos) ',JSON.stringify(lista).replace(/\"|\{|\}/g,''));	
+	return 'Primer objeto de la lista (con stringify y replace)= '+JSON.stringify(lista[0]).replace(/\"|\{|\}/g,'');
+}
+function aleatorio(a,b) {
+// numero al azar entre a y b
+	return Math.round(Math.random()*(b-a)+parseInt(a));
+}
+function hexRnd() {
+// un hex al azar
+	let a=0;
+	let b=15;
+	let res=Math.round(Math.random()*(b-a)+parseInt(a));
+	return res.toString(16).toUpperCase();
+}
+function colorRnd(){
+// color rgb al azar
+		let color=hexRnd()+hexRnd()+hexRnd();
+		color+=hexRnd()+hexRnd()+hexRnd();
+		return '#'+color;
+}
+function txtRnd(n) {
+// 0 a n minusculas al azar
+	let res='';
+	for (let j=0;j<aleatorio(1,n);j++){
+		let a=97; // 'a'
+		let b=a+20;		
+		let c=Math.round(Math.random()*(b-a)+parseInt(a));
+		res+=String.fromCharCode(c);
+
+	}
+	return res;
+}
+function nivelRnd(c){
+// una de las letras al azar
+	return c[aleatorio(0,2)];
+}
+
+
+window.onload = iniciar; 
+</script>
+</head>
+ <body>
+</body>
+</html>

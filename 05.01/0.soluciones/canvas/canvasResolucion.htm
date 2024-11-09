@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>tablaValores</title>
+
+<style>
+.tablita {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.tablita td, .tablita th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.tablita tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+.tablita tr:hover {
+	background-color: #ddd;
+}
+.tablita th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+
+<script>
+
+const max=16*Math.PI/4; // =4*PI para dibujar la curva completa
+const paso=0.3; // cambia el paso para ver la precision
+
+function iniciar(){
+
+	crearNodoId('canvas','canvas2');	
+	circulo('canvas2',100,'100x50 px');
+	crearNodo('br','');
+	crearNodo('br','');
+	crearNodoId('canvas','canvas3');	
+	circulo('canvas3',300,'300x150 px');
+	crearNodo('br','');
+	crearNodo('br','');
+	crearNodoId('canvas','canvas4');	
+	circulo('canvas4',1200,'1200x600 px');
+}
+function crearNodoId(tipo,id){
+	var ele=document.createElement(tipo);
+	document.body.appendChild(ele);
+	ele.id=id;
+}
+function crearNodo(tipo,inner){
+	var ele=document.createElement(tipo);
+	document.body.appendChild(ele);
+	ele.innerHTML=inner;
+}
+function circulo(id,w,txt){
+	var c = document.getElementById(id);
+	var ctx = c.getContext("2d");
+	// fondo del contenedor
+    c.style.background='#DDD';		
+	c.style.border='4px solid #000';	
+	// dimensiones del contenedor
+	c.style.width='600px';
+	c.style.height='300px';
+	/*
+	la resolucion del canvas esta determinada
+	por los pixel en canvas.width por defecto
+	son 300 pixel. Si se pixela tengo que 
+	aumentarla
+	*/
+	// diferentes canvas.width=100;300;1200
+	let h=w/2;
+	ctx.canvas.width=w;
+	ctx.canvas.height=h;
+	ctx.lineWidth = w/80;
+	let x=w/2;
+	let y=h/2;
+	let r=w/5;
+	ctx.beginPath();	
+	ctx.moveTo(x+r,y);
+	ctx.arc(x,y,r,0,2*Math.PI); // x,y,radio,grados
+	ctx.moveTo(x+r/2,y);
+	ctx.arc(x,y,r/2,0,2*Math.PI); // x,y,radio,grados
+	ctx.moveTo(x+r/4,y);
+	ctx.arc(x,y,r/4,0,2*Math.PI); // x,y,radio,grados
+	ctx.stroke();
+
+	ctx.font = r/4+"px Arial";
+	ctx.fillText(txt, w/100, h/10); 
+
+}
+window.onload = iniciar; 
+</script>
+
+</head>
+<body>
+</body>
+</html>

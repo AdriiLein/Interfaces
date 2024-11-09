@@ -1,0 +1,47 @@
+componentes       
+	placa base
+	grafica
+	ram
+	cpu
+	caja
+	fuente alimentacion
+	tarjeta sonido
+	tarjeta de red
+
+perifericos
+	monitores
+	altavoces
+	teclados
+	raton
+	cascos
+	impresoras
+	adaptadores
+	microfono
+	adaptador bluetooht
+	teclado inalambrico
+	sistema de sonido 5.1
+	monitor 4k 
+	raton inalambrico
+
+almacenamiento
+	ssd
+	hdd
+	m.2
+	usb
+
+refrigeracion
+	ventiladores
+	disipadores
+	pasta termica
+
+gaming
+	alfombrillas
+
+portatiles
+	cargadores
+
+cables
+	hdmi
+SO
+
+servidor NAS

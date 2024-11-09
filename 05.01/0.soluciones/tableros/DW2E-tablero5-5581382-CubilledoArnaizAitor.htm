@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>tablero5</title>
+
+<script>
+function iniciar(){
+    const filaColumna = 8; // número de opciones del menú
+    // crear los nodos
+    for (let i = 0; i < filaColumna; i++) {
+        // Crear un contenedor para la fila
+        let filaDiv = document.createElement('div');
+        filaDiv.style.clear = 'left'; // Asegura que cada fila comienza en una nueva línea
+        document.body.appendChild(filaDiv);
+        
+        for (let j = 0; j < filaColumna; j++) {
+            let ele = crearNodo('div', `c${i+1}${j+1}`, 'Casilla' + (i+1) + (j+1));
+            // Estilos en línea
+            ele.style.border = '1px solid black';
+            colorAleatorio(ele);
+            if(i==0 || i==7 || j==0 || j==7){
+                ele.style.height = '50px'; // Ajustar la altura
+                ele.style.width = '50px'; // Ajustar el ancho
+                ele.style.margin = '3px';
+                
+            }else if (i != 0 && i != 7 && j == 6) { // Cambiar para solo aplicar a la penúltima caja
+                ele.style.height = '35px'; // Ajustar la altura
+                ele.style.width = '35px'; // Ajustar el ancho
+                ele.style.margin = '10px';
+                ele.style.marginRight = '15px';
+                //ele.style.paddingRight = '60px';
+            }else{
+                ele.style.height = '35px'; // Ajustar la altura
+                ele.style.width = '35px'; // Ajustar el ancho
+                ele.style.margin = '10px';
+            }
+            
+            ele.style.bordercolor = 'black';
+            
+            ele.style.padding = '0'; // Sin padding
+            ele.style.boxSizing = 'border-box'; // Asegúrate de que el padding se incluya en el tamaño total
+            ele.style.display = 'flex'; // Usar flexbox
+            ele.style.flexDirection = 'column'; // Cambia la dirección del flex a columna
+            ele.style.justifyContent = 'flex-start'; // Alinea al inicio (parte superior)
+            ele.style.textAlign = 'center'; // centrar texto
+            ele.style.cursor = 'pointer'; // Cambiar el cursor
+            ele.style.float = 'left'; // Alinear las celdas en la fila
+            ele.style.fontSize = '10px'; // Tamaño de fuente
+
+            filaDiv.appendChild(ele); // Añadir la celda al contenedor de la fila
+            ele.addEventListener('click', clickMenu);
+            
+        }
+    }
+}
+
+function clickMenu() {
+    const casillas = document.querySelectorAll('div > div'); // Selecciona todos los nodos de casilla
+    casillas.forEach(casilla => {
+        colorAleatorio(casilla);
+    });
+}
+
+function colorAleatorio(ele){
+    valorr = Math.random()*(255 - 0) + 0;
+    valorg = Math.random()*(255 - 0) + 0;
+    valorb = Math.random()*(255 - 0) + 0;
+    ele.style.backgroundColor =`rgb(${valorr} ${valorg} ${valorb})`;
+
+}
+
+function crearNodo(tipo, inner, id) {
+    // crea el nodo
+    var ele = document.createElement(tipo);
+    ele.innerHTML = inner; // contenido
+    ele.id = id; // id del nodo
+    return ele; // retorna la referencia
+}
+
+window.onload = iniciar; // iniciar el script después de que la página se cargue
+</script>
+
+</head>
+<body>
+</body>
+</html>

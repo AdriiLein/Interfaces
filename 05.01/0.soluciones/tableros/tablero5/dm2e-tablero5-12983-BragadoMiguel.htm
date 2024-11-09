@@ -1,0 +1,97 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<style type="text/css">
+	div{
+		float: left;
+	}
+	p{
+		clear: left;
+	}
+	div:hover{background-color:grey}
+	
+</style>
+
+<title>Tablero 5</title>
+
+<script>
+//getelementbyname
+
+function iniciar(){
+	
+	var cont;
+	for(x = 0; x < 8; x++){
+		cont = 11 + x;
+		for(y = 0; y < 8; y++){
+		
+			var ele = creaNodo('div');
+			var num = cont + (10*y);
+			ele.num = num;
+			ele.id='C' + num.toString();
+			ele.innerHTML=ele.id;
+			ele.style.width='70px';
+			ele.style.height='70px';
+			ele.style.margin='0px';
+			ele.style.border='1px solid black';
+			ele.style.textAlign='center';			
+			ele.style.backgroundColor = color();
+			ele.addEventListener('click',clickCaja); 
+
+		}
+
+		crearSalto();
+		
+	}
+	
+}
+function clickCaja(){
+	
+	var eles=document.getElementsByTagName('div');
+
+	for (let ele of eles){
+	ele.innerHTML='';
+	ele.style.backgroundColor = color();
+	}
+	
+	this.style.backgroundColor = 'white';
+	
+}
+
+function creaNodo(tipo){
+	var ele = document.createElement(tipo);
+	document.body.appendChild(ele);
+	return ele;
+}
+
+function crearSalto(){
+	
+	var ele=document.createElement('div');
+	ele.style.clear='left';
+	document.body.appendChild(ele);
+}
+
+
+function alea(min, max) {
+	return Math.floor(Math.random() * (max - min)) + min;
+}
+
+function color(){
+	var pri = alea(0, 255).toString(16);
+	var seg = alea(0, 255).toString(16);
+	var tri = alea(0, 255).toString(16);
+	
+	return '#' + pri + seg + tri;
+}
+
+window.onload = iniciar; // sin parentesis , al final del head
+</script>
+
+</head>
+ 
+<body>
+	
+</body>
+</html>

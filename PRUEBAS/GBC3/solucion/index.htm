@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"> 
+<title>control</title>
+
+<script>
+
+var indice=0; // numero de clicks
+var salto=false; // salto de linea
+var texto='-HOLAKTAL-';
+
+function createNodoTxt(tipo,inner){
+	var ele=document.createElement(tipo);
+	ele.innerHTML=inner;
+	ele.style.cursor='pointer';		
+	ele.style.backgroundColor='grey';	
+	ele.style.fontSize='16px';
+	ele.style.width='100px';
+	ele.style.textAlign='center';	
+	ele.style.margin='4px';	
+	ele.style.padding='4px';		
+	ele.style.color='white';
+	ele.addEventListener('click',cajaClick2);
+	document.body.appendChild(ele);	
+}
+
+function createNode(tipo,id,color,inner){
+	var ele=document.createElement(tipo);
+	ele.id=id;
+	ele.innerHTML=inner;	
+	// establece el salto de linea
+	if (salto==true){
+		ele.style.clear='left';
+		salto=false;
+	}
+	// establece el color
+	if ( inner.charCodeAt(0)>=48 ){
+		ele.style.backgroundColor=color;
+	}
+	// estilos del elemento
+	ele.style.cursor='pointer';		
+	ele.style.width=64+'px';
+	ele.style.height=ele.style.width;
+	ele.style.margin='4px';
+	ele.style.textAlign='center';
+	ele.style.fontSize='54px';	
+	ele.style.float='left';
+	// evento del elemento
+	ele.addEventListener('click',cajaClick);
+	document.body.appendChild(ele);
+}
+function final(){
+	// borro elementos de la página
+	document.body.innerHTML='';
+	// creo lista de cajas con los numeros
+	for (var j=0;j<29;j++){
+		// numeros de 7 cifras en base 2
+		createNodoTxt('div',j.toString(2).padStart(7,"0"));
+	}
+}
+function cajaClick2(){
+	// click de la ultima pantalla
+	document.body.innerHTML='"FIN"';
+}
+
+function cajaClick(){
+	// click lista de numeros
+	if (indice==14){
+		final();
+		return
+	}
+	// click cajas iniciales	
+	if (indice<10){
+		createNode('div','c1','grey',texto[indice]);		
+	}else{
+		let z=document.getElementsByTagName('div');
+		for (let i = 0; i < z.length; i++) {
+			z[i].innerHTML = indice-10;
+		}
+	}
+	indice++; // incremento en cada click
+}
+function iniciar(){
+	// crear cajas iniciales letras 65='A'
+	for (let j=0;j<10;j++){
+		createNode('div','c1','yellow',String.fromCharCode(j+65)); 
+	}
+	// crear cajas iniciales numeros
+	for (let j=0;j<10;j++){
+		if (j==0){salto=true;}	
+		createNode('div','c1','green',j.toString());
+	}
+	salto=true;
+}
+
+window.onload=iniciar; // inicio del js
+
+</script>
+</head>
+
+<body>
+</body>
+
+</html> 

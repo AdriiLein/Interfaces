@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.pagination {
+  display: inline-block;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .2s;
+  border: 1px solid #ddd;
+}
+.pagination a:hover{
+  background-color: #ddd;
+}
+a:target, a:active { 
+  background-color: #4CAF50!important; /* el activo no cambia de color */
+  color: white;
+  border: 1px solid #4CAF50;
+}
+/*
+:target;
+al clicar una pagina saltamos con el href,
+el salto no tiene efecto,
+pero si :target;
+*/
+/*
+podemos usar una clase para controlar desde JS
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+*/
+
+</style>
+
+<script>
+function inicio(){
+var ele1=document.getElementById('d1');
+var ele2=document.getElementById('d8');
+ele1.onclick=cursor;
+ele2.onclick=cursor;
+}
+function cursor(){
+// controlar y mover el activo
+/* no esta RENDERIZADO !!!!
+console.log(document.getElementById('d2').style.backgroundColor);
+*/
+
+/*
+
+no queda otra que controlarlo por JS
+
+*/
+
+}
+window.onload=inicio;
+</script> 
+
+
+</head>
+<body>
+
+<h2>Pagination with Borders</h2>
+
+<div class="pagination">
+  <a id='d1' >&laquo;</a>
+  <a id='d2' href="#d2">1</a>
+  <a id='d3' href="#d3">2</a>
+  <a id='d4' href="#d4">3</a>
+  <a id='d5' href="#d5">4</a>
+  <a id='d6' href="#d6">5</a>
+  <a id='d7' href="#d7">6</a>
+  <a id='d8' >&raquo;</a>
+</div>
+
+</body>
+</html>

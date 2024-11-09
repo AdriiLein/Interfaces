@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>tablero1</title>
+
+<script>
+function iniciar(){
+	var ele;
+	console.log('paso por iniciar'); // paso por aqui ? inicio el js
+	// mantengo dos variables j, K para poder formar fila columna mas fácil
+	for (let j=1;j<9;j++){
+		for (let k=1;k<9;k++){
+			ele=crearCaja(50,50,'aqua','caja'+k+j,'H');	
+			if (k==1){crearSalto(ele);}	// primera caja de la fila reseteamos el float left		
+		}			
+	}
+}
+function crearSalto(ele){
+	ele.style.clear='left'; // interrumpe el flot left
+}
+function crearCaja(width,height,color,id,inner){
+	// funcion para crear todos los atributos, estilos y eventos de las cajas
+	var ele=document.createElement('div'); // crear objeto
+	ele.id=id;
+	ele.innerHTML=inner;
+	ele.style.cssFloat='left'; // css posicionamiento flotar a la izquierda
+	ele.style.backgroundColor=color;
+	ele.style.width=width+'px';
+	ele.style.height=height+'px';
+	ele.style.margin='4px';
+	ele.style.border='1px solid black'
+	ele.addEventListener('click',clickCaja); // evento de click todos a clickCaja
+	document.body.appendChild(ele); // anadir el nodo al arbol de nodos, anidados al body
+	return ele;
+}
+function clickCaja(){
+	alert(this.id); // this el sender del evento , leo el .id
+}
+window.onload = iniciar; // sin parentesis !! al final de head, inicio del js al carga la pagina
+</script>
+
+</head>
+ 
+<body>
+</body>
+
+</html>

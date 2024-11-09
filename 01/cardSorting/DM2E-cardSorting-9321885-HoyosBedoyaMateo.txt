@@ -1,0 +1,40 @@
+refrigeracion:
+    disipadores
+    ventiladores
+monitores:
+    monitor 4k 
+alfombrillas
+usb
+almacenamiento:
+    ssd
+    hdd
+    m.2
+cargadores
+perifericos:
+    microfono
+    raton inalambrico
+    teclado inalambrico
+    altavoces
+    teclados
+    raton
+    cascos
+portatiles
+gaming
+impresoras
+servidor NAS
+adaptadores:
+    adaptador bluetooht
+componentes:
+    placa base
+    grafica
+    ram
+    fuente alimentacion
+    tarjeta sonido
+    tarjeta de red
+    cpu
+    caja
+    sistema de sonido 5.1
+    pasta termica
+cables:
+    hdmi
+SO

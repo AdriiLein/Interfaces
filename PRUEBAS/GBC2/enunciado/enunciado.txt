@@ -1,0 +1,47 @@
+fichero: DM2E-GBC2-nia-ApellidosNombre.htm
+tiempo: 40m (ACNE 50m)
+fecha: 
+
+Enunciado:
+Buscar diez fallos de usabilidad en la página web dada,
+crear una versión corregida de la página y enviar el htm.
+
+Apartados (para cada fallo):
+1. Escribir la regla de usabilidad incumplida en el fallo detectado.
+2. Copiar las lineas de código donde esta el fallo y explicar que hacen.
+3. Describir la corrección necesaria en el código para solucionar el fallo.
+4. Corregir en la página web el fallo, indicando en un comentario el número del fallo.
+Cada apartado completo para cada fallo es un punto, total 40 puntos.
+
+Instrucciones:
+-Leer detenidamente este enunciado, una vez comenzada la prueba no hay preguntas.
+-Las respuestas estarán dentro de un comentario en el mismo fichero htm.
+-Las respuestas se presentan en el formato indicado mas abajo.
+-Puedes usar internet y el material de clase.
+-Solo apartados completos puntuan, incompletos es un cero.
+-Entregas fuera de tiempo no puntuan. Se corrige la ultima entrega en tiempo.
+-Entregar cada 10m desde minuto cero para tener un histórico.
+
+Criterios (la prueba es un cero si):
+a-Nombre del fichero esta mal.
+b-No envia ningún fichero.
+c-Envia algo diferente a un solo fichero htm.
+d-No hay histórico.
+
+Formato de las respuestas:
+Fallo 1
+1.
+2.
+3.
+4.
+Fallo 2
+1.
+2.
+3.
+4.
+...
+Fallo 10
+1.
+2.
+3.
+4.

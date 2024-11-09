@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Tablero 5</title>
+<style type="text/css">
+</style>
+<script type="text/javascript">
+var count=0;	
+	
+</script>
+</head>
+ 
+<body>
+<script type="text/javascript">
+
+	function iniciar () {
+		for (var j = 1; j <=8; j++) {
+			for (var i = 1; i <= 8; i++) {
+				var ele=creaNodo('div',j,i);
+				if (i==1)
+					ele.style.clear='left';
+			}
+		}
+
+
+	}
+
+	function creaNodo(tipo,num,num2) {
+		var ele = document.createElement(tipo);
+		document.body.appendChild(ele);
+		ele.style.float='left';
+		ele.style.width='60px';
+		ele.style.height='60px';
+		ele.style.border='1px solid black';
+		ele.style.textAlign='center';
+		ele.id='C'+num+''+num2;
+		ele.num=num;
+		ele.num2=num2;
+		ele.coloreado=false;
+		ele.style.borderRadius= '3px';
+		ele.style.backgroundColor=colorAleatorio();
+		ele.addEventListener('mouseover',cajaIn);
+		ele.addEventListener('mouseout', cajaOut);
+		ele.addEventListener('click', clickCaja);
+		
+		return ele;
+	}
+	function colorAleatorio() {
+		return "rgb("+aleatorio(0,255)+","+aleatorio(0,255)+","+aleatorio(0,255)+")";
+		
+	}
+	function clickCaja() {
+		count=0;
+		for (var j = 1; j <=8; j++) {
+			for (var i = 1; i <= 8; i++) {
+				document.getElementById('C'+j+''+i).style.backgroundColor=colorAleatorio();
+				if (document.getElementById('C'+j+''+i).coloreado==true)
+					count ++;
+			document.getElementById('C'+j+''+i).coloreado=false;
+			}
+		}
+	this.style.backgroundColor="white";
+	
+	console.log(count);
+		if (count==64){
+			alert ('¡COMPLETADO!');
+		}
+		else
+			alert ('¡NO COMPLETADO! te faltan '+(64-count));
+
+	}
+
+	function cajaIn() {
+		this.style.backgroundColor ='white';
+		this.style.color='white';
+		this.style.cursor='pointer';
+		this.coloreado=true;
+
+	}
+	function cajaOut () {
+		this.style.cursor='auto';
+	}
+	
+	function aleatorio(min, max) {
+	  return Math.floor(Math.random() * (max - min)) + min;
+	}
+	
+window.onload = iniciar;
+</script>
+
+
+</body>
+</html>

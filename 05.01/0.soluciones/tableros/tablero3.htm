@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>tablero3</title>
+
+<script>
+function iniciar(){
+	for (j=1;j<9;j++){ // filas
+		for (k=1;k<9;k++){ // columnas
+			var d1=aleatorio(35,100);
+			var d2=aleatorio(20,100);
+			// componemos el nombre usando filas y columnas
+			crearCelda(d1,d2,'aqua','C'+k+j,'H'+k+j);	
+		}
+		crearSalto();		
+	}
+}
+function crearSalto(){
+	// div vacio sin dimensiones con clear left
+	var ele=document.createElement('div'); // crear nodo
+	ele.style.clear='left'; // css posicionamiento borrar float
+	document.body.appendChild(ele);	// añadir nodo al dom
+}
+function crearCelda(width,height,color,id,inner){
+	var ele=document.createElement('div'); // crear objeto
+	document.body.appendChild(ele); // añadir nodo al dom	
+	// atributos del nodo
+	ele.id=id;
+	ele.innerHTML=inner;
+	ele.style.cssFloat='left'; // posicionamiento flotante
+	ele.style.backgroundColor=color;
+	ele.style.width=width+'px'; //  dimensiones
+	ele.style.height=height+'px';
+	ele.style.margin='2px';
+	ele.style.border='1px solid black'; 
+	ele.style.textAlign='center';
+	// evento de click al nodo
+	ele.addEventListener('click',clickCaja);
+}
+function clickCaja(){
+	this.innerHTML=this.id; // imprimir el id en cada caja
+	if (this.id=='C88'){
+		// ultima caja click
+		var eles=document.getElementsByTagName('div'); // selector lista de nodos
+		for (let ele of eles){ele.innerHTML='';} // recorrer objetos de nodos	
+		// let para ambito de bloque		
+	}
+}
+function aleatorio(a,b) { 	// calcula un numero al azar entre a y b
+	return Math.round(Math.random()*(b-a)+parseInt(a));
+}
+window.onload = iniciar; // sin parentesis , al final del head , aseguramos que los objetos estan cargados
+</script>
+
+</head>
+ 
+<body>
+</body>
+
+</html>

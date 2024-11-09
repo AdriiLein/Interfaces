@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablero 2</title>
+
+
+<script>
+
+function iniciar(){
+    for(i=1;i<9;i++){
+        for(j=1;j<9;j++){
+        var ele=crearNodo('div','H','caja'+i+j,cambiarColor());          
+            var randomX=aleatorio(0,50);
+            var randomY=aleatorio(0,45);
+            //console.log(randomX);
+            ele.style.border='1px solid #000';
+            ele.style.background=cambiarColor;
+            ele.style.width=randomX+'px';
+            ele.style.height=randomY+'px';
+           // ele.style.margin='2px';
+            ele.style.cursor='pointer';
+            ele.style.float='left';
+            ele.innerHTML='H'+i+j;
+            ele.addEventListener('click',clicar);
+        if(j==1)crearSalto(ele);
+        if(j==8 && i==8){
+            ele.innerHTML='resetear';
+            ele.style.width='50px';
+            ele.style.height='50px';
+        }
+        }  
+    }
+}
+function crearSalto(ele){
+    ele.style.clear='left'; //Esto resetea el posicionamiento
+}
+function aleatorio(minimo,maximo){
+    var ele= Math.floor(Math.random() * ((maximo-minimo)+1));
+    //console.log(ele);
+    return ele+30;
+
+}
+
+function cambiarColor(){
+    var rojo=aleatorio(0,255);
+    var verde=aleatorio(0,250);
+    var azul=aleatorio(0,255);
+    console.log(rojo,verde,azul);
+    return "rgb"+"("+rojo+","+azul+","+verde+")";
+}
+function clicar(){
+    var randomX;
+    var randomY;
+    if(this.id=='caja88'){
+        for(i=1;i<9;i++){
+                for(j=1;j<9;j++){
+                var ele =document.getElementById('caja'+i+j);
+                ele.innerHTML="";
+                randomX=aleatorio(0,50);
+                randomY=aleatorio(0,45);
+                ele.style.background="white";
+                ele.style.width=randomX+'px';
+                ele.style.height=randomY+'px';
+                ele.innerHTML='H'+i+j;
+                if(j==8 && i==8){
+                    ele.innerHTML='resetear';
+                    ele.style.width='50px';
+                    ele.style.height='50px';
+                }
+                }
+        }
+    }
+    else{
+        this.innerHTML= this.id;
+        this.style.background=cambiarColor();
+        console.log(cambiarColor());
+        randomX=aleatorio(0,50);
+                randomY=aleatorio(0,45);
+                this.style.width=randomX+'px';
+               this.style.height=randomY+'px';
+    }
+}
+
+
+function crearNodo(tipo,inner,id,color){
+    var ele = document.createElement(tipo);
+    document.body.appendChild(ele);
+    ele.innerHTML=inner;
+    ele.id=id;
+    ele.style.backgroundColor=color;
+    return ele;
+}
+
+
+window.onload=iniciar;
+</script>
+
+
+
+
+
+
+
+
+</head>
+<body>  
+</body>
+</html>

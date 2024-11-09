@@ -1,0 +1,38 @@
+entrega: DM2E-GBC4-nia-ApellidosNombre.htm
+tiempo: 40m (ACNEE 50m)
+acceso a internet: si
+
+Instrucciones:
+-Leer detenidamente este enunciado, una vez comenzada la prueba no hay preguntas.
+-Acceso a internet y material de clase esta permitido.
+-Uso de IDEs de desarrollo no permitido (react, angular, ..) permitido solo editor de código.
+-Entregas fuera de tiempo no puntuan. Se corrige la ultima entrega en tiempo.
+-Entregar cada 10 minutos desde minuto cero para tener un histórico.
+
+Criterios, la prueba es un cero si :
+A-No envia ningún fichero
+B-Envia algo diferente al fichero indicado
+C-Nombre del fichero esta mal
+D-No hay histórico, mínimo 4 ficheros
+E-El body no esta vacio, aparece HTML
+F-Uso de IDEs no permitidos
+G-Copiar código entre compañeros es un cero para ambos.
+
+Prueba:
+Realizar un programa solo en js y resolver los apartados en canvas, según capturas. Los element <body> y <style> deben estar vacios.
+
+Apartados:
+01- recuadro contenedor posicion, tamaño, estilo
+02- primer arco esquina superior izquierda dibujo
+03- primer arco esquina superior izquierda posicion
+04- primer arco esquina superior izquierda estilo
+05- segunda linea arcos separacion alineacion estilo
+06- tercera linea arcos separacion alineacion estilo
+08- linea fecha1 fecha2 formato tamaño
+09- lineas fechas alineacion
+10- fecha 1 cambia al recargar la página
+11- fecha 2 cambia al recargar la página
+
+Calificación:
+Todos los apartados puntuan igual.
+Solo apartados completos puntuan, incompletos es un cero.

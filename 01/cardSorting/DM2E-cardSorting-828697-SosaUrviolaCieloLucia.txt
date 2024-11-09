@@ -1,0 +1,40 @@
+Categorías:
+	Periféricos
+		altavoces
+		teclados
+		Monitores
+		Microfono
+		Raton
+		Alfombrillas
+		imresoras
+	Gaming
+		teclados inalámbricos
+		Monitores 4K
+		sistema de sonido 5.1
+		ratón inalambrico
+		cascos
+		portátiles
+	Componentes
+		caja
+		placa base
+		ram
+		fuente alimentacion
+		tarjeta sonido
+		tarjeta de red
+		SO
+		CPU
+	Almacenamiento
+		ssd
+		hdd
+		servidos NAS
+		usb
+		m.2
+	Refrigeración
+		ventiladores
+		disipadores
+		pasta térmica
+	cables
+		cargadores
+		hdmi
+		adaptador bluetooht
+		adaptadores

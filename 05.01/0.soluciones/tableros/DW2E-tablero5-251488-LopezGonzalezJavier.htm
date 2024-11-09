@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>tablero5</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #f0f0f0, #acacac); /* fondo degradado de gris claro a gris*/
+        }
+
+        div {
+            transition: background-color 0.8s ease; /* Añade la transición */
+            box-shadow: 2px 2px 5px;
+            border-radius: 5px;
+        }
+    </style>
+    <script>
+        const nMenu = 64; // Número de cajas
+
+        function iniciar() {
+            // crear los nodos
+            for (let j = 1; j <= 8; j++) {
+                for (let k = 1; k <= 8; k++) {
+                    var ele = crearNodo('div', 'C' + k + j, 'C' + k + j);
+                    ele.style.border = '1px solid black';
+                    ele.style.backgroundColor = getRandomColor();
+                    ele.style.height = numAleatorio(30, 80) + 'px';
+                    ele.style.width = numAleatorio(30, 80) + 'px';
+                    ele.style.margin = numAleatorio(3, 20) + 'px';
+                    ele.style.padding = '2 px';
+                    ele.style.textAlign = posicionTexto();
+                    ele.style.cursor = 'pointer'; // manita
+                    ele.style.float = 'left'; // cajas en linea
+                    ele.addEventListener('click', clickColor);
+                    if (k == 1) {
+                        ele.style.clear = 'left'; // cajas en linea
+                    }
+                }
+            }
+        }
+
+        function crearNodo(tipo, inner, id) {
+            // crea el nodo, lo pone en el body
+            var ele = document.createElement(tipo);
+            document.body.appendChild(ele);
+            ele.innerHTML = inner; // contenido
+            ele.id = id; // id del nodo
+            return ele; // retorna la referencia
+        }
+
+        function clickColor() {
+            if (this.style.backgroundColor != 'white') {
+                this.style.backgroundColor = 'white'; // cambia el color de la caja clicada a blanco
+                for (let j = 1; j <= 8; j++) {
+                    for (let k = 1; k <= 8; k++) {
+                        var ele = document.getElementById('C' + k + j); // obtengo el elemento
+                        if (this.id != ele.id && ele.style.backgroundColor != "white") {
+                            ele.style.backgroundColor = getRandomColor(); // le cambio el color
+                        }
+                    }
+                }
+            }
+        }
+
+        // function que retorna un color aleatorio
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF'; // cadena con todos los valores hexadecimales
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[numAleatorio(0, 15)]; // añado 6 letras aleatorias
+            }
+            return color;
+        }
+
+        function numAleatorio(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        function posicionTexto() {
+            var num = numAleatorio(10, 19);
+            if (num < 13) {
+                return "center";
+            }
+            else if (num > 13 && num < 16) {
+                return "right";
+            }
+            else if (num > 16) {
+                return "left";
+            }
+        }
+
+        window.onload = iniciar; // inicio de js al terminar la carga de la pagina
+    </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>

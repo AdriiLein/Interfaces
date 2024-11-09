@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>fechas</title>
+
+
+<style>
+	*{
+		box-sizing: border-box;
+	}
+</style>
+
+<script>
+
+"uses strict"; // ver capitulo w3c
+const nFechas=24; // cantidad de fechas
+const nCol=6; // columnas
+var fechas=[]; // array de dates
+
+function iniciar(){
+	// programa principal primer nivel solo llamadas
+	crearFechas();
+	crearNodoTexto('Ejemplo de control input type="date" impreso en ISO Date',0);	
+	crearNodoInputFecha();
+	crearNodoTexto('Listado '+nFechas+' fechas a '+nCol+' columnas',60);	
+	imprime(fechas);
+	crearNodoTexto('De menor a mayor',36);
+	imprime(fechas.sort(function(a,b){return a.getTime()-b.getTime()}));
+	crearNodoTexto('De mayor a menor',36);
+	imprime(fechas.sort(function(a,b){return b.getTime()-a.getTime()}));
+	crearNodoTexto('Diferencias en dias con la siguiente fecha, a dos caracteres sin decimales',36);
+	diferencias(fechas.sort(function(a,b){return a.getTime()-b.getTime()}));
+	crearNodoTexto('Mayor y menor diferencia entre dias',36);
+	mayorMenor(fechas);
+	crearNodoTexto('Fecha mas alta y mas baja',36);
+	altaBaja(fechas.sort(function(a,b){return a.getTime()-b.getTime()}));
+	crearNodoTexto('Dias entre la fecha mas alta y mas baja',36);
+	diasAltaBaja(fechas.sort(function(a,b){return a.getTime()-b.getTime()}));
+}
+function crearFechas(){
+	// creamos el array de dates y las visualizamos
+	for (let j=0;j<nFechas;j++){
+		var d=new Date(2019,0,1,0,0,0); // constructor por campos
+		d.setDate(d.getDate()+parseInt(aleatorio(0,364))); // sumar dias
+		fechas.push(d); // rellenar array
+	}
+	console.log('Array de los objetos fecha con indices numericos',fechas);
+}
+function crearNodoInputFecha(){
+	// poner el control fecha dentro de un div y otro div para visualizar la fecha
+	var ele=document.createElement('div');
+	document.body.appendChild(ele);	
+	ele.id='caja1';	
+	ele.style.width='140px';
+	ele.style.height='40px';
+	ele.style.marginTop='10px';	
+	ele.style.float='left';
+	ele.style.border='1px solid #EEE';
+	ele.style.padding='8px';
+
+	var ele=document.createElement('input');
+	document.getElementById('caja1').appendChild(ele);	
+	ele.type='date';
+	ele.addEventListener('change',changeInput); // evento de cambio de fecha
+	var ele=document.createElement('div');
+	document.body.appendChild(ele);	
+	ele.id='fecha1';	
+	ele.innerHTML='ISO date';
+	ele.style.width='160px';
+	ele.style.height='40px';
+	ele.style.marginTop='10px';	
+	ele.style.paddingTop='12px';	
+	ele.style.border='1px solid #EEE';
+	ele.style.float='left';
+	ele.style.textAlign='center';
+}
+function changeInput(){
+	// presentar la fecha cuando cambio valor en el selector
+	document.getElementById('fecha1').innerHTML=this.value;
+}	
+function diasAltaBaja(f){
+	// restar milisegundos primera y ultima fecha 
+	// multiplicar ms para obtener dias
+	// toFixed eliminar los decimales	
+	var x=f[0].getTime();
+	var y=f[f.length-1].getTime();
+	var dif=(y-x)/(1000*60*60*24).toFixed(0);
+	crearNodoFecha(' dias entre fechas:'+dif,360,'left');
+}
+function dameFecha(fecha){
+		// formato de salida de fecha DD-MM-YYYY
+		return fecha.getDate()+'-'+(fecha.getMonth()+1)+'-'+fecha.getFullYear();
+}
+function altaBaja(f){
+	crearNodoFecha(' baja: '+dameFecha(f[0])+' y alta: '+dameFecha(f[f.length-1]),360,'left');
+}
+function mayorMenor(f){
+	// buscar mayor menor codigo basico
+	// podemos usar tb math.max.apply(array) o array.sort
+	var difMax=-Infinity,difMin=Infinity;
+	for (let j=0;j<f.length-1;j++){
+		var x=f[j].getTime();
+		var y=f[j+1].getTime();
+		if ((y-x)>difMax){difMax=y-x;}
+		if ((y-x)<difMin){difMin=y-x;}
+	}
+	var txt='mayor: '+(difMax/(1000*60*60*24)).toFixed(0)+' y '+' menor: '+(difMin/(1000*60*60*24)).toFixed(0);
+	crearNodoFecha(txt,360,'left');
+}
+function diferencias(f){
+	// restar milisegundos primera y ultima fecha 
+	// multiplicar ms para obtener dias
+	// toFixed eliminar los decimales	
+	var c=0;
+	for (let j=0;j<f.length-1;j++){
+		if (c==4){
+			crearNodoSalto();
+			c=0;
+		}
+		var x=f[j].getTime();
+		var y=f[j+1].getTime();
+		var txt=f[j].getDate()+'-'+(f[j].getMonth()+1)+'-'+f[j].getFullYear()+' ; '+((y-x)/(1000*60*60*24)).toFixed(0).padStart(2,0);
+		crearNodoFecha(txt,164,'right');
+		c++;	
+	}
+}
+function imprime(f){
+	var c=0,d=1;
+	for (v of f){ // recorrer f-array cada v-elemento-objeto-date
+		if (c==nCol){
+			crearNodoSalto();
+			c=0;
+		}
+		var txt=v.getDate()+'-'+(v.getMonth()+1)+'-'+v.getFullYear();
+		crearNodoFecha(txt,110,'right');
+		c++;d++;	
+	}
+}
+function crearNodoTexto(a,top){
+	// un div para el tendo
+	var ele=document.createElement('div');
+	document.body.appendChild(ele);
+	ele.innerHTML='<b>'+a+'</b>';	
+	ele.style.clear='left';
+	ele.style.marginTop=top+'px';	
+	ele.style.height='20px';
+}	
+function crearNodoFecha(a,w,align){
+	// un div contenedor de fecha
+	var ele=document.createElement('div');
+	document.body.appendChild(ele);
+	ele.innerHTML=a;
+	ele.style.width=w+'px';
+	ele.style.height='20px';
+	ele.style.float='left';
+	ele.style.border='1px solid #EEE';
+	ele.style.textAlign=align;
+}
+function crearNodoSalto(){
+	var ele=document.createElement('div');
+	document.body.appendChild(ele);
+	ele.style.clear='left';
+}
+function aleatorio(a,b) {
+	return Math.round(Math.random()*(b-a)+parseInt(a));
+}
+window.onload = iniciar; // sin parentesis , al final del head
+</script>
+
+</head>
+ 
+<body>
+</body>
+
+</html>

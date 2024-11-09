@@ -1,0 +1,15 @@
+<script>
+function azar(a,b){
+	return Math.floor(Math.random() * b) + a;
+}
+for (i=0;i<10;i++){
+	var alto = azar(1,10);
+	var ancho = azar(1,10);
+	var fondo = azar(1,10);
+	var superficie=fondo*ancho;
+	var volumen=superficie*alto;
+	var v2=Math.floor(volumen*3.28);
+	var texto=`alto=${alto} ancho=${ancho} fondo=${fondo} superficie=${superficie} volumen=${volumen} volumen en pies=${v2}`;
+	document.write(texto+'<br/>');
+}
+</script>

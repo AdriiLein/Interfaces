@@ -1,0 +1,42 @@
+refrigeracion
+placa base
+grafica
+monitores
+ram
+ventiladores
+altavoces
+teclados
+raton
+alfombrillas
+cpu
+cascos
+almacenamiento
+caja
+cargadore
+perifericos
+portatiles
+fuente alimentacion
+tarjeta sonido
+tarjeta de red
+disipadores
+ssd
+hdd
+m.2
+pasta termica
+gaming
+hdmi
+impresoras
+usb
+adaptadores
+microfono
+componentes
+cables
+adaptador bluetooht
+SO
+teclado inalambrico
+sistema de sonido 5.1
+raton inalambrico
+monitor 4k 
+servidor NAS
+
+

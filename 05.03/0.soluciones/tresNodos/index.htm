@@ -1,0 +1,67 @@
+<html>
+<head>
+<style>
+.boton{
+	cursor:pointer;
+}
+</style>
+<script>
+"use strict"
+/*
+creamos nodos por js y por html
+*/
+window.onload=function(){
+	var ele = creaNodo(document.body,'div');
+	ele.id='contenedor';
+	creaNodosA();
+	var ele=creaBoton('BORRAR');
+	ele.onclick=borra;
+	ele.className='boton';
+	var ele=creaBoton('CREAR');
+	ele.onclick=crea;
+	ele.className='boton';
+}
+function creaNodo(p,t){
+	var ele = document.createElement(t);		
+	p.appendChild(ele);
+	return ele;
+}
+function creaNodosA(){
+	var ele = document.getElementById("contenedor");
+	for (var j=0;j<3;j++){
+		var parrafo = creaNodo(ele,'p');
+		parrafo.id='p'+j;
+		var contenido = creaTexto(parrafo,'hola '+j);	
+	}
+}
+function creaTexto(p,t){
+	var ele = document.createTextNode(t);
+	p.appendChild(ele);
+	return ele;
+}
+function creaBoton(t){
+	var boton = creaNodo(document.body,'div');
+	var contenido = creaTexto(boton,t);
+	boton.style.border='solid 1px';
+	boton.style.width='80px';
+	boton.style.backgroundColor='aquamarine';
+	boton.style.textAlign='center';
+	return boton;
+}
+function borra(){	
+	var ele = document.getElementById("p2");
+	ele.parentNode.removeChild(ele);
+	this.onclick=''; // elimina el evento 
+	this.style.backgroundColor='white';
+}
+function crea(){
+
+	var ele = document.getElementById("contenedor");
+	var parrafo = creaNodo(ele,'p');
+	var contenido = creaTexto(parrafo,'hola ');	
+}
+</script>
+</head>
+<body>
+</body>
+</html>

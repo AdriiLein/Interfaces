@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>verificar NIF</title>
+
+<script type="text/javascript">
+
+// 	
+// salida directa del programa con el texto indicado
+
+var letras = 'TRWAGMYFPDXBNJZSQVHLCKET';
+var numero = prompt("Introduce tu número de DNI (sin la letra)");
+var letra = prompt("Introduce la letra de tu DNI (en mayúsculas)");
+console.log('ENTRADA: ',numero,letra); 
+
+/*
+aqui puedes añadir tus chequeos sin usar try..catch
+*/
+
+/*
+try
+	si se produce una excepcion
+	si mando yo la excepcion
+catch(error)
+	saltamos aqui y puedo manejar la excepcion
+finally
+	siempre con error o sin error
+*/
+
+var error=false; // por defecto no tengo errores
+document.write('<b>número</b>: '+numero+'<br/>');
+document.write('<b>letra</b>: '+letra+'<br/>');
+try {
+	//adddlert("Welcome guest!"); esta instruccion lanza un excepcion
+	/*
+	aqui puedes añadir mas chequeos
+	*/
+	// provoco una excpeción para cada error todas van al catch
+	if ( isNaN(numero) ) throw 'número no es válido'; // siempre poner parentesis en condicion del if
+	if( numero < 0 || numero > 99999999 ) throw 'número fuera de rango';
+	if( letra < 'A' || letra > 'Z' ) throw 'letra fuera de rango A-Z';
+	if( letra == 'I' ) throw 'letra I no válida';
+	if( letra == 'O' ) throw 'letra O no válida';
+	/*
+	Diferentes formas de leer un caracter de una cadena:
+	-Podriamos convertir la cadena en array, pero no es necesario para acceder a un caracter
+	-var letra=cadena[x];
+	-var letra=cadena.chartAt(x);
+	-var letras=Array.from(letras); 
+	-var letras=letras.split('');
+	-var letras=[...letras];
+	-var letras=Object.assign([],letras);
+	*/
+	var letraCalculada = letras[numero % 23];
+  	if( letraCalculada != letra ) throw 'La letra o el número proporcionados no son correctos';
+}
+catch(err){ 
+	// Saltamos aqui si hay una excepcion o un throw. 
+	// En el objeto err tenemos el error
+	error=true; // marco que tengo errores para el mensaje resumen
+	document.writeln('detalle del error: '+err+'<br/>'); // analizo el error
+}
+finally{ // se ejecuta siempre independientemente de si hay error o no, imprimo la linea resumen
+	document.write('resumen: ');
+	if (!error) document.write("CORRECTO") 
+	else document.write("ERRORES")
+}
+
+// si no hay error salimos aquidel try..catch
+
+</script>
+
+</head>
+ 
+<body>
+<p>NOTA: esta página calculó con popups (una práctica no aconsejada)</p>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>tablaValores SVG</title>
+
+
+<style>
+#svgContainer {
+  
+}	
+</style>
+
+<script>
+
+const max=4*Math.PI; // =2*PI un ciclo
+const paso=Math.PI/12; // paso mas precision
+var boxWidth = 600;
+var boxHeight = 300;
+var xmlns = "http://www.w3.org/2000/svg";
+
+function iniciar(){
+    // contenedor SVG
+    pintaContenedor();
+    // pintar la grafica con los datos
+    pintaSVG(valoresTxt());
+}
+function pintaContenedor(){
+    // crear contenedor svg con esquema XML
+    var svgElem = document.createElementNS(xmlns,'svg');
+    // atributos del contenedor svg
+    svgElem.setAttribute('id','contsvg');
+    svgElem.setAttribute('width', boxWidth);
+    svgElem.setAttribute('height', boxHeight);
+    document.body.appendChild(svgElem);
+}
+function valoresTxt(){
+	// cabecera
+	let txt='x#cos(x)#seno(x)#seno(x)#14 decimales#x con decimales<br/>';
+	// crear valores
+	for (let j=0;j<max;j+=paso){
+		txt+=j.toFixed(2)+'#'+Math.cos(j).toFixed(2)+'#'+Math.sin(j).toFixed(2)+'#'+Math.sin(j)+'#'+j.toFixed(14)+'#'+j+'<br/>';
+	}
+	return txt;
+}
+function pintaSVG(txt){
+	var w=boxWidth;
+	var h=boxHeight;
+	var ex=w/4/Math.PI;	
+	var r=4;
+    var osvg=document.getElementById("contsvg");
+    var filas=txt.split('<br/>');
+    //console.log('valores canvas:',filas)
+	for (fila of filas){
+		var datos=fila.split('#');	
+		var x=datos[0],y=datos[2];
+		if (x==''){break}
+		if (x!='x'){ 
+            var circulo = document.createElementNS(xmlns,'circle');
+            circulo.setAttribute('cx',0+ex*x);
+            circulo.setAttribute('cy',h/2-80*y);
+            circulo.setAttribute('r',r);
+            circulo.setAttribute('style','fill:none; stroke:#222; stroke-width:2px;' ) ;
+            osvg.appendChild(circulo);
+        }else{	
+        }
+	}
+  	return;
+}
+/*rNodo(tipo,valor){
+	var ele=document.createElement(tipo);
+	document.body.appendChild(ele);
+	ele.innerHTML=valor;
+}
+*/
+function svg1(cont){
+	container = document.getElementById(cont);
+	for (var x = 0; x < boxWidth; x += 50) {
+    	for (var y = 0; y < 300; y += 50) {
+    	    var circle = document.createElementNS(xmlns, 'circle');
+    	    circle.setAttribute('cx', x);
+    	    circle.setAttribute('cy', y);
+    	    circle.setAttribute('r', 50);
+    	    circle.setAttribute('style', 'fill: none; stroke: blue; stroke-width: 1px;' );
+    	    container.appendChild(circle);
+    	}
+	}
+}
+window.onload = iniciar; 
+</script>
+</head>
+<body>
+</body>
+</html>

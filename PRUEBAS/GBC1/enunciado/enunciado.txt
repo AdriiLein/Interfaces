@@ -1,0 +1,24 @@
+nombre: DM2E-GBC1-expediente-ApellidosNombre.htm
+tiempo: 40m (ACNE 50m)
+fecha: SEP24
+
+Escribir un programa solo en JS que presente lo mostrado en las capturas.
+-Leer detenidamente, una vez comenzada la prueba no hay preguntas.
+-Puedes usar internet y el material de clase.
+
+Criterios:
+a- Nombre de fichero mal es un cero.
+b- Solo apartados completos puntuan, incompletos es un cero.
+c- Entregas fuera de tiempo no puntuan. Se corrige la ultima en tiempo.
+d- Entregar cada 10 minutos ( 0m 10m 20m 30m ) mínimo 4 entregas, sino hay histórico es un cero.
+e- Solo JS, si aparece HTML es un cero.
+
+Cumplir los siguientes apartados:
+1- Contenido.Muestra el contenido dado en la captura.
+2- Formato.Todos y cada uno de los caracteres mostrados estan exactos en la primera linea.
+3- Código.Usa template string.
+4- Ejecución.Los cálculos son correctos.
+5- Ejecución.El calculo en pies es correcto.
+6- Formato.Presenta sin decimales todos los numeros.
+7- Ejecución.Genera correctamente valores al azar.
+8- Ejecución.Repite correctamente 10 lineas en cada recarga de la página.
