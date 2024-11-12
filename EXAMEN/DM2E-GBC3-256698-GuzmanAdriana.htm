@@ -1,0 +1,120 @@
+<script>
+    const texto = "-HOLAKTAL-";
+    const abc = "ABCDEFGHIJ";
+    let clickCount = 0;
+    let textoIndex = 0;
+
+    function crearNodo(tipo, inner, id) {
+        var ele = document.createElement(tipo);
+        ele.innerHTML = inner;
+        ele.id = id;
+        document.body.appendChild(ele);
+        return ele;
+    }
+
+    function crearCajas() {
+        cajaAbecedario();
+        cajaNumeros();
+        cajaTexto();
+    }
+
+    function cajaAbecedario() {
+        for (let i = 0; i < abc.length; i++) {
+            const caja = crearNodo('div', abc[i], 'caja' + i);
+            caja.className = 'caja';
+            caja.style.width = '64px';
+            caja.style.height = '64px';
+            caja.style.margin = '4px';
+            caja.style.float = 'left';
+            caja.style.display = 'flex';
+            caja.style.alignItems = 'center';
+            caja.style.justifyContent = 'center';
+            caja.style.cursor = 'pointer';
+            caja.style.backgroundColor = 'yellow';
+            caja.onclick = function() {
+                manejarClick(caja);
+            };
+        }
+    }
+
+    function cajaNumeros() {
+        for (let i = 0; i < 10; i++) {
+            const caja = crearNodo('div', i.toString(), 'num' + i);
+            caja.className = 'caja';
+            caja.style.width = '64px';
+            caja.style.height = '64px';
+            caja.style.margin = '4px';
+            caja.style.float = 'left';
+            caja.style.display = 'flex';
+            caja.style.alignItems = 'center';
+            caja.style.justifyContent = 'center';
+            caja.style.cursor = 'pointer';
+            caja.style.backgroundColor = 'green';
+            caja.onclick = function() {
+                manejarClick(caja);
+            };
+        }
+    }
+
+    function cajaTexto() {
+        for (let i = 0; i < texto.length; i++) {
+            const caja = crearNodo('div', '', 'texto' + i);
+            caja.className = 'caja';
+            caja.style.width = '64px';
+            caja.style.height = '64px';
+            caja.style.margin = '4px';
+            caja.style.float = 'left';
+            caja.style.display = 'none';
+            caja.style.alignItems = 'center';
+            caja.style.justifyContent = 'center';
+            caja.style.cursor = 'pointer';
+            caja.style.backgroundColor = 'gray';
+        }
+    }
+
+    function manejarClick(caja) {
+        if (clickCount < texto.length) {
+            mostrarCajasTexto();
+            if (textoIndex < texto.length) {
+                const textoCajas = document.getElementById('texto' + textoIndex);
+                textoCajas.textContent = texto[clickCount];
+                textoIndex++;
+            }
+            clickCount++;
+        } else if (clickCount === texto.length) {
+            llenarCajasConCero();
+            clickCount++;
+        } else if (clickCount < 20) {
+            caja.textContent = clickCount - texto.length;
+            clickCount++;
+        } else if (clickCount === 20) {
+
+        } else if (clickCount === 21) {
+            caja.textContent = 'FIN';
+        }
+    }
+
+    function mostrarCajasTexto() {
+        const textoCajas = [];
+        for (let i = 0; i < texto.length; i++) {
+            textoCajas[i] = document.getElementById('texto' + i);
+        }
+
+        for (let i = 0; i < textoIndex; i++) {
+            textoCajas[i].style.display = 'flex'; 
+        }
+    }
+
+    function llenarCajasConCero() {
+        var cajas = document.querySelectorAll('.caja');
+        for (let i = 0; i < cajas.length; i++) {
+            cajas[i].textContent = '0';
+        }
+    }
+
+    function iniciar() {
+        crearCajas();
+    }
+
+    window.onload = iniciar;
+</script>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web Sencilla Quizas es un poco largo el titulo de la pestaña</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            /*Fallo 4*/
+            background-color: #533;
+            color: #ffffff;
+            padding: 1rem;
+            /*Fallo 5*/
+	        text-align: left;
+        }
+        main {
+            padding: 2rem;
+
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+	a{
+        /*Fallo 8*/
+	    font-size:16px;
+	}
+    </style>
+</head>
+<body>
+    <!--Fallo 6-->
+    <header>
+        <!--Fallo 5-->
+        <h1>Restaurante El Pollo Frito</h1>
+    </header>
+    <main>
+        <!--Fallo 3-->
+        <h1>Sobre Mí</h1>
+        <!--Fallo 2-->
+        <p>Esta es una página web sencilla creada solo con <b>HTML</b> y un poco de <b>CSS</b>.</p>
+        <!--Fallo 1-->
+        <h1>Contacto</h1> <p>puedes contactarme en <a href="mailto:ejemplo@correo.com">ejemplo@correo.com</a></p>
+        <h1>Ofertas</h1><p>Ven al local para descubrir las mejores ofertas.</p>
+        <!--Fallo 7-->
+        <h1>Pedidos</h1><p>Tienes disponibles muchos productos para hacer tu pedido.</p>
+        <h1>Contacto</h1><p>Estamos para atenderte.</p>
+    </main>
+    <footer>
+        <p>© 2024 Mi Página Web</p>
+    </footer>
+    
+<!--
+    Fallo 1
+    1. No cumple con separación de títulos y párrafos
+    2. <h2>Contactopuedes contactarme en <a href="mailto:ejemplo@correo.com">ejemplo@correo.com</a></h2>
+    3. Revisar la separación entre palabras para mayor legibilidad
+    4.
+    Fallo 2
+    1. Resaltar texto en contenido no relevante
+    2. <p>Esta <b>es</b> una <b>página</b> web <b>sencilla</b> creada solo con <b>HTML</b> y un poco de <b>CSS</b>.</p>
+    3. Utilizar la etiqueta <b></b> solo para contenido que se necesita resaltar
+    4.
+    Fallo 3
+    1. Diseño de contenidos. Mala estructura de etiquetas html
+    2. <h2>Sobre Mí</h2> <h2>Contacto</h2> <h1>Pedidos</h1> <h1>Contacto</h1>
+    3. Todas los titulos tienen que tener la misma etiqueta de titulo
+    4.
+    Fallo 4
+    1. El contenido del header no es legible
+    2.  header {  background-color: #533;color: #222; }
+    3. El color de la letra tiene que ser legible en el color del fondo
+    4.
+    Fallo 5
+    1. El contenido del header mal posicionado y mal escrito
+    2. <h1>Restraurarte El Pollo Frito</h1> header {  background-color: #533; color: #222;  padding: 1rem; text-align: right; }
+    3. Corregir las palabras del titulo, alinear el texto hacia la izquierda
+    4.
+    Fallo 6
+    1. Diseño Visual. Mala estructura de pagina
+    2. <body><main>
+    3. El body tiene que contener un header al inicio, el contenido siguiente y al final el footer
+    4.
+    Fallo 7
+    1. Conciso y preciso. El contenido es irrelevante
+    2. <h1>Pedidos</h1><p>Ven al local para hacer tus pedidos. Sin duda es la mejor opción, puedes pasar en el monto que quieras y seras muy bien atendido. Tienes disponibles muchos productos para hacer tu pedido.</p>
+    3. Reducir el contenido para eliminar el contenido que no sea necesario
+    4.
+    Fallo 8
+    1. Tamaño de fuente muy pequeña
+    2. a{ font-size:10px;	}
+    3. Aumentar el tamaño de la fuente
+    4.
+    Fallo 9
+    1.
+    2.
+    3.
+    4.
+    Fallo 10
+    1.
+    2.
+    3.
+    4.
+-->
+
+<!--Apartados (para cada fallo):
+1. Escribir la regla de usabilidad incumplida en el fallo detectado.
+2. Copiar las lineas de código donde esta el fallo y explicar que hacen.
+3. Describir la corrección necesaria en el código para solucionar el fallo.
+4. Corregir en la página web el fallo, indicando en un comentario el número del fallo.
+Cada apartado completo para cada fallo es un punto, total 40 puntos.-->
+
+</body>
+</html>

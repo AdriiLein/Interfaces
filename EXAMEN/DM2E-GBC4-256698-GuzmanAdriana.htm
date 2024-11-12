@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>control</title>
+<script>
+
+"use strict"
+
+/*
+- capturar estilo del canvas imagen
+- video captura
+
+Crear un programa que cree los elementos indicados
+en canvas según las capturas
+
+Tablero:
+01) Dimensiones
+02) Borde
+03) Color de fondo
+
+Primera linea:
+04) Número de arcos
+05) Color de la linea
+06) Estilo de la linea
+07) Posición del arco
+08) Dinujo del arco
+
+Segunda linea:
+09) Estilo y color de la linea
+10) Posición y dibujo del arco
+
+Tercera linea
+11) Estilo, color, posicion y dibujo del arco
+
+Cuarta linea
+12) Fecha 1 al azar y formato
+13) Fecha 2 al azar y formato
+14) Posición, alineacion y tamaño de los textos
+
+*/
+
+function iniciar(){
+
+	console.log('iniciar');
+
+	/* las constantes del programa */
+	const w=720; /* tablero ancho pixel */
+	const h=w/2; /* tablero ratio 2:1 */
+	const f=1; /* factor canvas/ctx resolucion*/
+	const wc=w*f; /* resolución canvas ancho */
+	const hc=h*f; /* resolución canvas alto */
+
+	const ele=document.createElement('canvas');
+	ele.id='canva';
+	ele.style.width=w+'px';
+	ele.style.height=h+'px';
+	ele.style.backgroundColor='#ceeef2';
+	ele.style.border='3px solid #000';
+	document.body.appendChild(ele);
+	const ctx=canva.getContext("2d");
+	ctx.canvas.width=wc;
+	ctx.canvas.height=hc;
+	
+	setCirculo(0,ctx,wc,5,'#eab676');
+	setCirculo(70,ctx,wc,10,'#1ab676');
+	setCirculo(150,ctx,wc,20,'#ea0076');
+
+	ctx.beginPath();
+	let ft=40;
+	ctx.font=ft+"px Courier";	
+	ctx.strokeStyle="#000000";
+	const ln=130;
+	setTexto(2019,aleatorio(0,11),1,ctx,280,'1',60);
+	setTexto(2019,0,aleatorio(0,30),ctx,330,'2',60);	
+	ctx.stroke();
+}
+
+function aleatorio(a,b) {
+	return Math.round(Math.random()*(b-a)+parseInt(a));
+}
+function setTexto(a,b,c,ctx,ay,n,ax){
+	var z=new Date(a,b,c);
+	ctx.fillText('fecha '+n+' : '+z.toDateString(),ax,ay);
+}
+
+function setCirculo(al,ctx,wc,lw,st){
+	ctx.lineWidth=lw;	
+	ctx.beginPath();
+	ctx.strokeStyle=st;
+	const s1=90;  // salto entre circulos
+	const s2=s1/2; // diametro
+	const r=s2/2;  // radio
+	for (let i=s1;i<wc;i+=s1){ 
+		ctx.moveTo(i+r,al+s2);	
+		ctx.arc(i,al+s2,r,0,1.8*Math.PI);	
+	}
+	ctx.stroke();
+}
+
+window.onload=iniciar;
+
+</script>
+</head>
+<body>
+</body>
+</html> 

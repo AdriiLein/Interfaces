@@ -1,0 +1,50 @@
+<script>
+    var alto = Math.floor(Math.random() * 10) + 1;
+    var ancho = Math.floor(Math.random() * 9) + 1;
+    var fondo = Math.floor(Math.random() * 10) + 1;
+
+
+    function calcularSuperficie(alto, fondo){
+        var superficie = (alto * fondo)*2;
+        return superficie;
+    }
+    function calcularVolumen(alto, ancho, fondo){
+        var volumen = (alto * ancho *fondo);
+        return volumen;
+    }
+    function convertirPies(metro){
+        var pies = (metro*3.280).toFixed(0);
+        return pies;
+    }
+
+    var superficie = calcularSuperficie(fondo, alto);
+        
+    var volumen = calcularVolumen(alto, ancho, fondo);
+    
+    var contador = 0;
+    
+    do{   
+
+        function imprimir(){
+            document.write("alto=" + alto)
+            document.write(" ancho=" + ancho)
+            document.write(" fondo=" + fondo)
+            document.write(" superficie=" + superficie)
+            document.write(" volumen=" + volumen)
+            document.write(" volumen en pies=" + convertirPies(volumen) + "</br>")
+        }
+
+        imprimir();
+        contador += 1;
+
+        var alto = Math.floor(Math.random() * 10);
+        var ancho = Math.floor(Math.random() * 10);
+        var fondo = Math.floor(Math.random() * 10);
+
+        var superficie = calcularSuperficie(fondo, alto);
+        
+        var volumen = calcularVolumen(alto, ancho, fondo);
+
+    }while(contador < 10)
+    
+</script>
