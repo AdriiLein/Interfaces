@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen JavaScript</title>
+    <style>
+        .hover-verde:hover {
+            background-color: lightgreen;
+        }
+
+        .amarillo {
+            background-color: yellow;
+        }
+
+        .fecha {
+            background-color: #f0f0f0;
+            border: none;
+            width: 80px;
+            height: 40px;
+            margin-left: 5px;
+        }
+
+        .titulo {
+            margin: 0 10px 0 0;
+            font-weight: bold;
+        }
+
+        #resultado {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-top: 10px;
+        }
+
+        .linea {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<script>
+    function iniciar() {
+        const contenedor = document.createElement('div');
+        const placeholders = ['mes1:', 'año1:', 'mes2:', 'año2:'];
+        const inputs = [];
+
+        for (let i = 0; i < placeholders.length; i++) {
+            const linea = document.createElement('div');
+            linea.className = 'linea';
+
+            const nombreInput = crearNombreInput(placeholders[i]);
+            const input = crearInput();
+            input.maxLength = i % 2 === 0 ? 2 : 4; // Limitar mes a 2 caracteres, año a 4
+            linea.appendChild(nombreInput);
+            linea.appendChild(input);
+            inputs.push(input);
+
+            contenedor.appendChild(linea);
+        }
+
+        const resultado = document.createElement('div');
+        resultado.id = 'resultado';
+        contenedor.appendChild(resultado);
+
+        document.body.appendChild(contenedor);
+
+        // Evento para presionar "Enter" y calcular fechas
+        inputs.forEach(input => {
+            input.addEventListener('keydown', (event) => {
+                if (event.key === 'Enter') {
+                    event.preventDefault();
+                    calcularFechas(inputs, resultado);
+                }
+            });
+        });
+
+        function calcularFechas(inputs, resultado) {
+            const valores = inputs.map(input => input.value.trim());
+            const [mes1, año1, mes2, año2] = valores;
+
+            resultado.innerHTML = '';
+
+            if (valores.some(v => v === '')) {
+                resultado.textContent = 'Faltan datos';
+                return;
+            }
+
+            if (!validarMes(mes1) || !validarMes(mes2)) {
+                resultado.textContent = mes1 > 12 ? 'Error fecha 1' : 'Error fecha 2';
+                return;
+            }
+
+            resultado.textContent = `De ${mes1}/${año1} a ${mes2}/${año2}`;
+            generarFechas(mes1, año1, mes2, año2);
+        }
+
+        function validarMes(mes) {
+            const num = parseInt(mes, 10);
+            return num >= 1 && num <= 12;
+        }
+
+        function generarFechas(mes1, año1, mes2, año2) {
+            const startDate = new Date(`${año1}-${mes1}-01`);
+            const endDate = new Date(`${año2}-${mes2}-01`);
+
+            while (startDate <= endDate) {
+                const dia = startDate.toLocaleDateString('es-ES', { weekday: 'short', day: 'numeric' });
+                const div = document.createElement('div');
+                div.textContent = dia;
+                div.className = 'hover-verde';
+                div.addEventListener('click', () => {
+                    div.classList.toggle('amarillo');
+                });
+
+                resultado.appendChild(div);
+                startDate.setDate(startDate.getDate() + 1);
+            }
+        }
+    }
+
+    function crearNombreInput(nombreInput) {
+        const nombre = document.createElement('p');
+        nombre.innerHTML = nombreInput;
+        nombre.className = 'titulo';
+        return nombre;
+    }
+
+    function crearInput() {
+        const input = document.createElement('input');
+        input.type = 'text';
+        input.placeholder = ' ';
+        input.className = 'fecha';
+        return input;
+    }
+
+    window.onload = iniciar;
+</script>
+</body>
+</html>
+

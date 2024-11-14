@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DM2E-GBE1-256698-GuzmanAdriana</title>
+    <style>
+        .hover-verde:hover {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+<script>
+    function iniciar() {
+        const contenedor = document.createElement('div');
+        contenedor.style.display = 'flex';
+        const placeholders = ['mes1: ', 'año1: ', 'mes2: ', 'año2: '];
+        const inputs = [];
+
+        for (let i = 0; i < placeholders.length; i++) {
+            const nombreInput = crearNombreInput(placeholders[i]);
+            const input = crearInput();
+            input.maxLength = i % 2 === 0 ? 2 : 4;
+            input.style.backgroundColor = '#f0f0f0';
+            input.style.border = 'none';
+            input.style.width = '45px';
+            input.style.height = '30px';
+            input.style.margin = '5px 10px';
+            input.style.textAlign = 'center';
+            input.style.fontSize = '16px';
+            nombreInput.style.alignContent = 'center';
+            contenedor.appendChild(nombreInput);
+            contenedor.appendChild(input);
+            inputs.push(input);
+        }
+
+        const resultado = document.createElement('div');
+        resultado.id = 'resultado';
+        resultado.style.marginTop = '20px';
+        resultado.style.fontSize = '16px';
+
+        const textoRango = document.createElement('div');
+        textoRango.id = 'textoRango';
+
+        const contenedorFechas = document.createElement('div');
+        contenedorFechas.style.display = 'flex';
+        contenedorFechas.style.flexWrap = 'wrap'; 
+
+        resultado.appendChild(textoRango);
+        resultado.appendChild(contenedorFechas);
+
+        document.body.appendChild(contenedor);
+        document.body.appendChild(resultado);
+
+        inputs.forEach(input => {
+            input.addEventListener('keydown', (event) => {
+                if (event.key === 'Enter') {
+                    event.preventDefault();
+                    calcularFechas(inputs, textoRango, contenedorFechas);
+                }
+            });
+        });
+
+        function calcularFechas(inputs, textoRango, contenedorFechas) {
+            const valores = inputs.map(input => input.value.trim());
+            const [mes1, año1, mes2, año2] = valores;
+
+            textoRango.innerHTML = '';
+            contenedorFechas.innerHTML = ''; 
+
+            if (valores.some(v => v === '')) {
+                textoRango.textContent = 'Faltan datos';
+                return;
+            }
+
+            if (!validarMes(mes1) || !validarMes(mes2)) {
+                textoRango.textContent = mes1 > 12 ? 'Error fecha 1' : 'Error fecha 2';
+                return;
+            }
+
+            textoRango.textContent = `De ${mes1}/${año1} a ${mes2}/${año2}`;
+            generarFechas(mes1, año1, mes2, año2, contenedorFechas);
+        }
+
+        function validarMes(mes) {
+            const num = parseInt(mes, 10);
+            return num >= 1 && num <= 12;
+        }
+
+        function generarFechas(mes1, año1, mes2, año2, contenedorFechas) {
+            const startDate = new Date(`${año1}-${mes1}-01`);
+            const endDate = new Date(`${año2}-${mes2}-01`);
+
+            while (startDate <= endDate) {
+                const dia = obtenerFormatoDia(startDate);
+                const div = document.createElement('div');
+                div.className = 'hover-verde';
+                div.textContent = dia;
+                div.style.border = '1px solid #ccc';
+                div.style.padding = '5px';
+                div.style.margin = '2px';
+                div.style.width = 'calc(100% / 12 - 10px)'; 
+                div.style.boxSizing = 'none';
+                div.style.textAlign = 'center';
+                div.style.backgroundColor = '#f0f0f0';
+
+                div.addEventListener('click', () => {
+                    div.classList.toggle('amarillo');
+                });
+
+                contenedorFechas.appendChild(div);
+                startDate.setDate(startDate.getDate() + 1);
+            }
+            aplicarEstilosHover();
+        }
+
+        function aplicarEstilosHover() {
+            const elementos = document.getElementsByClassName('hover-verde');
+            for (let i = 0; i < elementos.length; i++) {
+                elementos[i].addEventListener('mouseover', function () {
+                    this.style.backgroundColor = 'lightgreen';
+                });
+                elementos[i].addEventListener('mouseout', function () {
+                    this.style.backgroundColor = '#f0f0f0';
+                });
+                elementos[i].addEventListener('onclick', function () {
+                    this.style.backgroundColor = 'yellow';
+                });
+
+            }
+        }
+    
+
+        function obtenerFormatoDia(fecha) {
+            const opciones = { weekday: 'short', day: 'numeric' };
+            const formatoLocal = fecha.toLocaleDateString('es-ES', opciones);
+            const [diaSemana, diaNumero] = formatoLocal.split(' ');
+            return `${diaSemana}-${diaNumero}`;
+        }
+    }
+
+    function crearNombreInput(nombreInput) {
+        const nombre = document.createElement('p');
+        nombre.innerHTML = nombreInput;
+        nombre.className = 'titulo';
+        nombre.style.margin = '5px';
+        return nombre;
+    }
+
+    function crearInput() {
+        const input = document.createElement('input');
+        input.type = 'text';
+        input.placeholder = ' ';
+        input.className = 'fecha';
+        return input;
+    }
+
+    window.onload = iniciar;
+</script>
+</body>
+</html>
