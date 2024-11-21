@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablero con información</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .info-box {
+            margin-bottom: 20px;
+            padding: 10px;
+            width: 300px;
+            height: 50px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+        .board {
+            display: grid;
+            grid-gap: 5px;
+        }
+        .button {
+            width: 50px;
+            height: 50px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="info-box" id="infoBox">Pasa el ratón por los botones</div>
+    <div class="board" id="board"></div>
+
+    <script>
+
+        const rows = 9;
+        const cols = 9;
+        const board = document.getElementById("board");
+        const infoBox = document.getElementById("infoBox");
+
+        board.style.gridTemplateRows = `repeat(${rows}, 1fr)`;
+        board.style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
+
+        for (let row = 1; row <= rows; row++) {
+            for (let col = 1; col <= cols; col++) {
+                const button = document.createElement("button");
+                const buttonId = `btn-${row}-${col}`;
+                button.id = buttonId;
+                button.className = "button";
+                button.textContent = `${row},${col}`;
+
+                button.onmouseover = (event) => {
+                    const x = event.clientX;
+                    const y = event.clientY;
+                    infoBox.textContent = `ID: ${buttonId}, Fila: ${row}, Columna: ${col}, X: ${x}, Y: ${y}`;
+                };
+
+                board.appendChild(button);
+            }
+        }
+
+        function crearInfoBox(id, row, col) {
+            const infoBox = document.createElement("div");
+            infoBox.className = "info-box";
+            infoBox.id = id;
+            infoBox.textContent = `ID: ${id}, Fila: ${row}, Columna: ${col}`;
+            return infoBox;
+        }
+    </script>
+</body>
+</html>
