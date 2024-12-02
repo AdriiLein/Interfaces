@@ -1,0 +1,20 @@
+/* queda igual */
+body {
+	color:red;
+}
+button{
+	width:40px;
+	margin:0px 2px 2px 0px;
+}
+textarea{
+	width:50px;
+	height:16px;
+	resize:none;
+	padding:4px;
+}
+.par{
+	background-color: #ddd;
+}
+.impar{
+	background-color: #999;
+}
