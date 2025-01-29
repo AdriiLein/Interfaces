@@ -1,0 +1,104 @@
+O:\IES clara del rey\DAI\profe\practicas vb\fuentes\Practicas\obj\Debug\Practicas.exe
+O:\IES clara del rey\DAI\profe\practicas vb\fuentes\Practicas\obj\Debug\Practicas.xml
+O:\IES clara del rey\DAI\profe\practicas vb\fuentes\Practicas\obj\Debug\Practicas.pdb
+O:\IES clara del rey\DAI\profe\practicas vb\fuentes\Practicas\bin\Debug\Practicas.exe
+O:\IES clara del rey\DAI\profe\practicas vb\fuentes\Practicas\bin\Debug\Practicas.pdb
+O:\IES clara del rey\DAI\profe\practicas vb\fuentes\Practicas\bin\Debug\Practicas.xml
+O:\IES clara del rey\DAI\profe\practicas vb\fuentes\Practicas\obj\Debug\ResolveAssemblyReference.cache
+O:\IES clara del rey\DAI\profe\practicas vb\fuentes\Practicas\obj\Debug\Practicas.frmPruebaTuMente2.resources
+O:\IES clara del rey\DAI\profe\practicas vb\fuentes\Practicas\obj\Debug\Practicas.frmMueveFrm2.resources
+O:\IES clara del rey\DAI\profe\practicas vb\fuentes\Practicas\obj\Debug\Practicas.frmAgenda.resources
+O:\IES clara del rey\DAI\profe\practicas vb\fuentes\Practicas\obj\Debug\Practicas.frmDibujaFiguras.resources
+O:\IES clara del rey\DAI\profe\practicas vb\fuentes\Practicas\obj\Debug\Practicas.frmCalculadora.resources
+O:\IES clara del rey\DAI\profe\practicas vb\fuentes\Practicas\obj\Debug\Practicas.frmFiguraDibujada.resources
+O:\IES clara del rey\DAI\profe\practicas vb\fuentes\Practicas\obj\Debug\Practicas.frmMantenimientoAgenda.resources
+O:\IES clara del rey\DAI\profe\practicas vb\fuentes\Practicas\obj\Debug\Practicas.frmMenu.resources
+O:\IES clara del rey\DAI\profe\practicas vb\fuentes\Practicas\obj\Debug\Practicas.frmMueveFrm.resources
+O:\IES clara del rey\DAI\profe\practicas vb\fuentes\Practicas\obj\Debug\Practicas.frmPruebaTuMente.resources
+O:\IES clara del rey\DAI\profe\practicas vb\fuentes\Practicas\obj\Debug\Practicas.frmSorteo.resources
+O:\IES clara del rey\DAI\profe\practicas vb\fuentes\Practicas\obj\Debug\Practicas.Resources.resources
+O:\IES clara del rey\DAI\profe\practicas vb\fuentes\Practicas\obj\Debug\Practicas.vbproj.GenerateResource.Cache
+O:\IES clara del rey\DAI\curso\proyectos\practicas vb\Practicas\bin\Debug\Practicas.exe
+O:\IES clara del rey\DAI\curso\proyectos\practicas vb\Practicas\bin\Debug\Practicas.pdb
+O:\IES clara del rey\DAI\curso\proyectos\practicas vb\Practicas\bin\Debug\Practicas.xml
+O:\IES clara del rey\DAI\curso\proyectos\practicas vb\Practicas\obj\Debug\ResolveAssemblyReference.cache
+O:\IES clara del rey\DAI\curso\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmCalc2.resources
+O:\IES clara del rey\DAI\curso\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmPruebaTuMente2.resources
+O:\IES clara del rey\DAI\curso\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmMueveFrm2.resources
+O:\IES clara del rey\DAI\curso\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmAgenda.resources
+O:\IES clara del rey\DAI\curso\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmDibujaFiguras.resources
+O:\IES clara del rey\DAI\curso\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmCalculadora.resources
+O:\IES clara del rey\DAI\curso\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmFiguraDibujada.resources
+O:\IES clara del rey\DAI\curso\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmMantenimientoAgenda.resources
+O:\IES clara del rey\DAI\curso\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmMenu.resources
+O:\IES clara del rey\DAI\curso\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmMueveFrm.resources
+O:\IES clara del rey\DAI\curso\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmPruebaTuMente.resources
+O:\IES clara del rey\DAI\curso\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmSorteo.resources
+O:\IES clara del rey\DAI\curso\proyectos\practicas vb\Practicas\obj\Debug\Practicas.Resources.resources
+O:\IES clara del rey\DAI\curso\proyectos\practicas vb\Practicas\obj\Debug\Practicas.vbproj.GenerateResource.Cache
+O:\IES clara del rey\DAI\curso\proyectos\practicas vb\Practicas\obj\Debug\Practicas.exe
+O:\IES clara del rey\DAI\curso\proyectos\practicas vb\Practicas\obj\Debug\Practicas.xml
+O:\IES clara del rey\DAI\curso\proyectos\practicas vb\Practicas\obj\Debug\Practicas.pdb
+F:\IES\dai200809\curso1\proyectos\practicas vb\Practicas\obj\Debug\Practicas.exe
+F:\IES\dai200809\curso1\proyectos\practicas vb\Practicas\obj\Debug\Practicas.xml
+F:\IES\dai200809\curso1\proyectos\practicas vb\Practicas\obj\Debug\Practicas.pdb
+F:\IES\dai200809\curso1\proyectos\practicas vb\Practicas\bin\Debug\Practicas.exe
+F:\IES\dai200809\curso1\proyectos\practicas vb\Practicas\bin\Debug\Practicas.pdb
+F:\IES\dai200809\curso1\proyectos\practicas vb\Practicas\bin\Debug\Practicas.xml
+F:\IES\dai200809\curso1\proyectos\practicas vb\Practicas\obj\Debug\ResolveAssemblyReference.cache
+F:\IES\dai200809\curso1\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmCalc2.resources
+F:\IES\dai200809\curso1\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmPruebaTuMente2.resources
+F:\IES\dai200809\curso1\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmMueveFrm2.resources
+F:\IES\dai200809\curso1\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmAgenda.resources
+F:\IES\dai200809\curso1\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmDibujaFiguras.resources
+F:\IES\dai200809\curso1\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmCalculadora.resources
+F:\IES\dai200809\curso1\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmFiguraDibujada.resources
+F:\IES\dai200809\curso1\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmMantenimientoAgenda.resources
+F:\IES\dai200809\curso1\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmMenu.resources
+F:\IES\dai200809\curso1\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmMueveFrm.resources
+F:\IES\dai200809\curso1\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmPruebaTuMente.resources
+F:\IES\dai200809\curso1\proyectos\practicas vb\Practicas\obj\Debug\Practicas.frmSorteo.resources
+F:\IES\dai200809\curso1\proyectos\practicas vb\Practicas\obj\Debug\Practicas.Resources.resources
+F:\IES\dai200809\curso1\proyectos\practicas vb\Practicas\obj\Debug\Practicas.vbproj.GenerateResource.Cache
+F:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.exe
+F:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.xml
+F:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.pdb
+F:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\bin\Debug\Practicas.exe
+F:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\bin\Debug\Practicas.pdb
+F:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\bin\Debug\Practicas.xml
+F:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\ResolveAssemblyReference.cache
+F:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmCalc2.resources
+F:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmPruebaTuMente2.resources
+F:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmMueveFrm2.resources
+F:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmAgenda.resources
+F:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmDibujaFiguras.resources
+F:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmCalculadora.resources
+F:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmFiguraDibujada.resources
+F:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmMantenimientoAgenda.resources
+F:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmMenu.resources
+F:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmMueveFrm.resources
+F:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmPruebaTuMente.resources
+F:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmSorteo.resources
+F:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.Resources.resources
+F:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.vbproj.GenerateResource.Cache
+E:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.exe
+E:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.xml
+E:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.pdb
+E:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\bin\Debug\Practicas.exe
+E:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\bin\Debug\Practicas.pdb
+E:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\bin\Debug\Practicas.xml
+E:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\ResolveAssemblyReference.cache
+E:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmCalc2.resources
+E:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmPruebaTuMente2.resources
+E:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmMueveFrm2.resources
+E:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmAgenda.resources
+E:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmDibujaFiguras.resources
+E:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmCalculadora.resources
+E:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmFiguraDibujada.resources
+E:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmMantenimientoAgenda.resources
+E:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmMenu.resources
+E:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmMueveFrm.resources
+E:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmPruebaTuMente.resources
+E:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.frmSorteo.resources
+E:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.Resources.resources
+E:\IES\DAI\entornos\proyectos clase\practicas vb\Practicas\obj\Debug\Practicas.vbproj.GenerateResource.Cache

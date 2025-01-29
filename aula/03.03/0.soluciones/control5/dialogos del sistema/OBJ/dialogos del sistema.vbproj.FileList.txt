@@ -1,0 +1,10 @@
+obj\Debug\dialogos del sistema.exe
+obj\Debug\dialogos del sistema.xml
+obj\Debug\dialogos del sistema.pdb
+bin\Debug\dialogos del sistema.exe
+bin\Debug\dialogos del sistema.pdb
+bin\Debug\dialogos del sistema.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\dialogos_del_sistema.Form1.resources
+obj\Debug\dialogos_del_sistema.Resources.resources
+obj\Debug\dialogos del sistema.vbproj.GenerateResource.Cache

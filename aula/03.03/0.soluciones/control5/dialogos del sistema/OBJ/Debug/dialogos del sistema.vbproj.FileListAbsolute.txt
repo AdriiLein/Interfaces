@@ -1,0 +1,43 @@
+G:\@entornos\historico del modulo\proyectos terminados\bloque grafica\MENUS1\dialogos del sistema\obj\Debug\dialogos del sistema.exe
+G:\@entornos\historico del modulo\proyectos terminados\bloque grafica\MENUS1\dialogos del sistema\obj\Debug\dialogos del sistema.xml
+G:\@entornos\historico del modulo\proyectos terminados\bloque grafica\MENUS1\dialogos del sistema\obj\Debug\dialogos del sistema.pdb
+G:\@entornos\historico del modulo\proyectos terminados\bloque grafica\MENUS1\dialogos del sistema\bin\Debug\dialogos del sistema.exe
+G:\@entornos\historico del modulo\proyectos terminados\bloque grafica\MENUS1\dialogos del sistema\bin\Debug\dialogos del sistema.pdb
+G:\@entornos\historico del modulo\proyectos terminados\bloque grafica\MENUS1\dialogos del sistema\bin\Debug\dialogos del sistema.xml
+G:\@entornos\historico del modulo\proyectos terminados\bloque grafica\MENUS1\dialogos del sistema\obj\Debug\ResolveAssemblyReference.cache
+G:\@entornos\historico del modulo\proyectos terminados\bloque grafica\MENUS1\dialogos del sistema\obj\Debug\dialogos_del_sistema.Form1.resources
+G:\@entornos\historico del modulo\proyectos terminados\bloque grafica\MENUS1\dialogos del sistema\obj\Debug\dialogos_del_sistema.Resources.resources
+G:\@entornos\historico del modulo\proyectos terminados\bloque grafica\MENUS1\dialogos del sistema\obj\Debug\dialogos del sistema.vbproj.GenerateResource.Cache
+F:\@entornos\DAI2 proyectos en clase\MENUS1\dialogos del sistema\obj\Debug\dialogos del sistema.exe
+F:\@entornos\DAI2 proyectos en clase\MENUS1\dialogos del sistema\obj\Debug\dialogos del sistema.xml
+F:\@entornos\DAI2 proyectos en clase\MENUS1\dialogos del sistema\obj\Debug\dialogos del sistema.pdb
+F:\@entornos\DAI2 B2\MENUS1\dialogos del sistema\obj\Debug\dialogos del sistema.exe
+F:\@entornos\DAI2 B2\MENUS1\dialogos del sistema\obj\Debug\dialogos del sistema.xml
+F:\@entornos\DAI2 B2\MENUS1\dialogos del sistema\obj\Debug\dialogos del sistema.pdb
+F:\@entornos\DAI2 B2\MENUS1\dialogos del sistema\bin\Debug\dialogos del sistema.exe
+F:\@entornos\DAI2 B2\MENUS1\dialogos del sistema\bin\Debug\dialogos del sistema.pdb
+F:\@entornos\DAI2 B2\MENUS1\dialogos del sistema\bin\Debug\dialogos del sistema.xml
+F:\@entornos\DAI2 B2\MENUS1\dialogos del sistema\obj\Debug\ResolveAssemblyReference.cache
+F:\@entornos\DAI2 B2\MENUS1\dialogos del sistema\obj\Debug\dialogos_del_sistema.Form1.resources
+F:\@entornos\DAI2 B2\MENUS1\dialogos del sistema\obj\Debug\dialogos_del_sistema.Resources.resources
+F:\@entornos\DAI2 B2\MENUS1\dialogos del sistema\obj\Debug\dialogos del sistema.vbproj.GenerateResource.Cache
+G:\@entornos\DAI2 B2\MENUS1\dialogos del sistema\obj\Debug\dialogos del sistema.exe
+G:\@entornos\DAI2 B2\MENUS1\dialogos del sistema\obj\Debug\dialogos del sistema.xml
+G:\@entornos\DAI2 B2\MENUS1\dialogos del sistema\obj\Debug\dialogos del sistema.pdb
+G:\@entornos\DAI2 B2\MENUS1\dialogos del sistema\bin\Debug\dialogos del sistema.exe
+G:\@entornos\DAI2 B2\MENUS1\dialogos del sistema\bin\Debug\dialogos del sistema.pdb
+G:\@entornos\DAI2 B2\MENUS1\dialogos del sistema\bin\Debug\dialogos del sistema.xml
+G:\@entornos\DAI2 B2\MENUS1\dialogos del sistema\obj\Debug\ResolveAssemblyReference.cache
+G:\@entornos\DAI2 B2\MENUS1\dialogos del sistema\obj\Debug\dialogos_del_sistema.Form1.resources
+G:\@entornos\DAI2 B2\MENUS1\dialogos del sistema\obj\Debug\dialogos_del_sistema.Resources.resources
+G:\@entornos\DAI2 B2\MENUS1\dialogos del sistema\obj\Debug\dialogos del sistema.vbproj.GenerateResource.Cache
+G:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\obj\Debug\dialogos del sistema.exe
+G:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\obj\Debug\dialogos del sistema.xml
+G:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\obj\Debug\dialogos del sistema.pdb
+G:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\bin\Debug\dialogos del sistema.exe
+G:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\bin\Debug\dialogos del sistema.pdb
+G:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\bin\Debug\dialogos del sistema.xml
+G:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\obj\Debug\ResolveAssemblyReference.cache
+G:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\obj\Debug\dialogos_del_sistema.Form1.resources
+G:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\obj\Debug\dialogos_del_sistema.Resources.resources
+G:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\obj\Debug\dialogos del sistema.vbproj.GenerateResource.Cache

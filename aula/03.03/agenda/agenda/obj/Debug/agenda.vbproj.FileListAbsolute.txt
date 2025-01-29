@@ -1,0 +1,86 @@
+F:\@entornos\DAI2 proyectos en clase\agenda\agenda\bin\Debug\agenda.exe
+F:\@entornos\DAI2 proyectos en clase\agenda\agenda\bin\Debug\agenda.pdb
+F:\@entornos\DAI2 proyectos en clase\agenda\agenda\bin\Debug\agenda.xml
+F:\@entornos\DAI2 proyectos en clase\agenda\agenda\obj\Debug\ResolveAssemblyReference.cache
+F:\@entornos\DAI2 proyectos en clase\agenda\agenda\obj\Debug\agenda.Form1.resources
+F:\@entornos\DAI2 proyectos en clase\agenda\agenda\obj\Debug\agenda.Resources.resources
+F:\@entornos\DAI2 proyectos en clase\agenda\agenda\obj\Debug\agenda.vbproj.GenerateResource.Cache
+F:\@entornos\DAI2 proyectos en clase\agenda\agenda\obj\Debug\agenda.exe
+F:\@entornos\DAI2 proyectos en clase\agenda\agenda\obj\Debug\agenda.xml
+F:\@entornos\DAI2 proyectos en clase\agenda\agenda\obj\Debug\agenda.pdb
+F:\@entornos\DAI2 B2\agenda\agenda\obj\Debug\agenda.exe
+F:\@entornos\DAI2 B2\agenda\agenda\obj\Debug\agenda.xml
+F:\@entornos\DAI2 B2\agenda\agenda\obj\Debug\agenda.pdb
+F:\@entornos\DAI2 proyectos en clase\agenda2\agenda\obj\Debug\agenda.exe
+F:\@entornos\DAI2 proyectos en clase\agenda2\agenda\obj\Debug\agenda.xml
+F:\@entornos\DAI2 proyectos en clase\agenda2\agenda\obj\Debug\agenda.pdb
+F:\@entornos\DAI2 proyectos en clase\agenda2\agenda\bin\Debug\agenda.exe
+F:\@entornos\DAI2 proyectos en clase\agenda2\agenda\bin\Debug\agenda.pdb
+F:\@entornos\DAI2 proyectos en clase\agenda2\agenda\bin\Debug\agenda.xml
+F:\@entornos\DAI2 proyectos en clase\agenda2\agenda\obj\Debug\ResolveAssemblyReference.cache
+F:\@entornos\DAI2 proyectos en clase\agenda2\agenda\obj\Debug\agenda.Form1.resources
+F:\@entornos\DAI2 proyectos en clase\agenda2\agenda\obj\Debug\agenda.Resources.resources
+F:\@entornos\DAI2 proyectos en clase\agenda2\agenda\obj\Debug\agenda.vbproj.GenerateResource.Cache
+F:\@entornos\DAI2 proyectos en clase\agenda2\agenda\obj\Debug\agenda.Dialog1.resources
+F:\profesor\ies\2012-2013\desarrollo\agenda2\agenda\obj\Debug\agenda.exe
+F:\profesor\ies\2012-2013\desarrollo\agenda2\agenda\obj\Debug\agenda.xml
+F:\profesor\ies\2012-2013\desarrollo\agenda2\agenda\obj\Debug\agenda.pdb
+F:\profesor\ies\2012-2013\desarrollo\agenda2\agenda\bin\Debug\agenda.exe
+F:\profesor\ies\2012-2013\desarrollo\agenda2\agenda\bin\Debug\agenda.pdb
+F:\profesor\ies\2012-2013\desarrollo\agenda2\agenda\bin\Debug\agenda.xml
+F:\profesor\ies\2012-2013\desarrollo\agenda2\agenda\obj\Debug\ResolveAssemblyReference.cache
+F:\profesor\ies\2012-2013\desarrollo\agenda2\agenda\obj\Debug\agenda.Dialog1.resources
+F:\profesor\ies\2012-2013\desarrollo\agenda2\agenda\obj\Debug\agenda.Form1.resources
+F:\profesor\ies\2012-2013\desarrollo\agenda2\agenda\obj\Debug\agenda.Resources.resources
+F:\profesor\ies\2012-2013\desarrollo\agenda2\agenda\obj\Debug\GenerateResource.read.1.tlog
+F:\profesor\ies\2012-2013\desarrollo\agenda2\agenda\obj\Debug\GenerateResource.write.1.tlog
+G:\ies1819\@ DESARROLLO\3-3\agenda2\agenda\obj\Debug\agenda.exe
+G:\ies1819\@ DESARROLLO\3-3\agenda2\agenda\obj\Debug\agenda.xml
+G:\ies1819\@ DESARROLLO\3-3\agenda2\agenda\obj\Debug\agenda.pdb
+G:\ies1819\@ DESARROLLO\3-3\agenda2\agenda\bin\Debug\agenda.exe
+G:\ies1819\@ DESARROLLO\3-3\agenda2\agenda\bin\Debug\agenda.pdb
+G:\ies1819\@ DESARROLLO\3-3\agenda2\agenda\bin\Debug\agenda.xml
+G:\ies1819\@ DESARROLLO\3-3\agenda2\agenda\obj\Debug\agenda.Dialog1.resources
+G:\ies1819\@ DESARROLLO\3-3\agenda2\agenda\obj\Debug\agenda.Form1.resources
+G:\ies1819\@ DESARROLLO\3-3\agenda2\agenda\obj\Debug\agenda.Resources.resources
+G:\ies1819\@ DESARROLLO\3-3\agenda2\agenda\obj\Debug\agenda.vbproj.GenerateResource.Cache
+G:\ies1819\@ DESARROLLO\3-3\agenda\agenda\obj\Debug\agenda.exe
+G:\ies1819\@ DESARROLLO\3-3\agenda\agenda\obj\Debug\agenda.xml
+G:\ies1819\@ DESARROLLO\3-3\agenda\agenda\obj\Debug\agenda.pdb
+G:\ies1819\@ DESARROLLO\3-3\agenda\agenda\bin\Debug\agenda.exe
+G:\ies1819\@ DESARROLLO\3-3\agenda\agenda\bin\Debug\agenda.pdb
+G:\ies1819\@ DESARROLLO\3-3\agenda\agenda\bin\Debug\agenda.xml
+G:\ies1819\@ DESARROLLO\3-3\agenda\agenda\obj\Debug\agenda.Dialog1.resources
+G:\ies1819\@ DESARROLLO\3-3\agenda\agenda\obj\Debug\agenda.Form1.resources
+G:\ies1819\@ DESARROLLO\3-3\agenda\agenda\obj\Debug\agenda.Resources.resources
+G:\ies1819\@ DESARROLLO\3-3\agenda\agenda\obj\Debug\agenda.vbproj.GenerateResource.Cache
+F:\00-ies2021\B-DM2E-INTERFACES\03.03\agenda\agenda\obj\Debug\agenda.exe
+F:\00-ies2021\B-DM2E-INTERFACES\03.03\agenda\agenda\obj\Debug\agenda.xml
+F:\00-ies2021\B-DM2E-INTERFACES\03.03\agenda\agenda\obj\Debug\agenda.pdb
+F:\00-ies2021\B-DM2E-INTERFACES\03.03\agenda\agenda\bin\Debug\agenda.exe
+F:\00-ies2021\B-DM2E-INTERFACES\03.03\agenda\agenda\bin\Debug\agenda.pdb
+F:\00-ies2021\B-DM2E-INTERFACES\03.03\agenda\agenda\bin\Debug\agenda.xml
+F:\00-ies2021\B-DM2E-INTERFACES\03.03\agenda\agenda\obj\Debug\agenda.Dialog1.resources
+F:\00-ies2021\B-DM2E-INTERFACES\03.03\agenda\agenda\obj\Debug\agenda.Form1.resources
+F:\00-ies2021\B-DM2E-INTERFACES\03.03\agenda\agenda\obj\Debug\agenda.Resources.resources
+F:\00-ies2021\B-DM2E-INTERFACES\03.03\agenda\agenda\obj\Debug\agenda.vbproj.GenerateResource.Cache
+F:\00-ies2122\B-DM2E-INTERFACES\03.03\agenda\agenda\obj\Debug\agenda.exe
+F:\00-ies2122\B-DM2E-INTERFACES\03.03\agenda\agenda\obj\Debug\agenda.xml
+F:\00-ies2122\B-DM2E-INTERFACES\03.03\agenda\agenda\obj\Debug\agenda.pdb
+F:\00-ies2122\B-DM2E-INTERFACES\03.03\agenda\agenda\bin\Debug\agenda.exe
+F:\00-ies2122\B-DM2E-INTERFACES\03.03\agenda\agenda\bin\Debug\agenda.pdb
+F:\00-ies2122\B-DM2E-INTERFACES\03.03\agenda\agenda\bin\Debug\agenda.xml
+F:\00-ies2122\B-DM2E-INTERFACES\03.03\agenda\agenda\obj\Debug\agenda.Dialog1.resources
+F:\00-ies2122\B-DM2E-INTERFACES\03.03\agenda\agenda\obj\Debug\agenda.Form1.resources
+F:\00-ies2122\B-DM2E-INTERFACES\03.03\agenda\agenda\obj\Debug\agenda.Resources.resources
+F:\00-ies2122\B-DM2E-INTERFACES\03.03\agenda\agenda\obj\Debug\agenda.vbproj.GenerateResource.Cache
+D:\00-IES2425\GB-DM2E\1.material\03.03\agenda\agenda\obj\Debug\agenda.exe
+D:\00-IES2425\GB-DM2E\1.material\03.03\agenda\agenda\obj\Debug\agenda.xml
+D:\00-IES2425\GB-DM2E\1.material\03.03\agenda\agenda\obj\Debug\agenda.pdb
+D:\00-IES2425\GB-DM2E\1.material\03.03\agenda\agenda\bin\Debug\agenda.exe
+D:\00-IES2425\GB-DM2E\1.material\03.03\agenda\agenda\bin\Debug\agenda.pdb
+D:\00-IES2425\GB-DM2E\1.material\03.03\agenda\agenda\bin\Debug\agenda.xml
+D:\00-IES2425\GB-DM2E\1.material\03.03\agenda\agenda\obj\Debug\agenda.Dialog1.resources
+D:\00-IES2425\GB-DM2E\1.material\03.03\agenda\agenda\obj\Debug\agenda.Form1.resources
+D:\00-IES2425\GB-DM2E\1.material\03.03\agenda\agenda\obj\Debug\agenda.Resources.resources
+D:\00-IES2425\GB-DM2E\1.material\03.03\agenda\agenda\obj\Debug\agenda.vbproj.GenerateResource.Cache

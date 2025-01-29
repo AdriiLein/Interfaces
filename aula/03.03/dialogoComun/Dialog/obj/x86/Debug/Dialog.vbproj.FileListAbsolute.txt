@@ -1,0 +1,47 @@
+C:\Users\manuel\Desktop\VB\p\Dialog\Dialog\bin\Debug\Dialog.exe
+C:\Users\manuel\Desktop\VB\p\Dialog\Dialog\bin\Debug\Dialog.pdb
+C:\Users\manuel\Desktop\VB\p\Dialog\Dialog\bin\Debug\Dialog.xml
+C:\Users\manuel\Desktop\VB\p\Dialog\Dialog\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\manuel\Desktop\VB\p\Dialog\Dialog\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\manuel\Desktop\VB\p\Dialog\Dialog\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\manuel\Desktop\VB\p\Dialog\Dialog\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\manuel\Desktop\VB\p\Dialog\Dialog\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\manuel\Desktop\VB\p\Dialog\Dialog\obj\x86\Debug\Dialog.exe
+C:\Users\manuel\Desktop\VB\p\Dialog\Dialog\obj\x86\Debug\Dialog.xml
+C:\Users\manuel\Desktop\VB\p\Dialog\Dialog\obj\x86\Debug\Dialog.pdb
+G:\ies1819\@ DESARROLLO\3-3\20150128\Dialog\Dialog\obj\x86\Debug\Dialog.exe
+G:\ies1819\@ DESARROLLO\3-3\20150128\Dialog\Dialog\obj\x86\Debug\Dialog.xml
+G:\ies1819\@ DESARROLLO\3-3\20150128\Dialog\Dialog\obj\x86\Debug\Dialog.pdb
+G:\ies1819\@ DESARROLLO\3-3\20150128\Dialog\Dialog\bin\Debug\Dialog.exe
+G:\ies1819\@ DESARROLLO\3-3\20150128\Dialog\Dialog\bin\Debug\Dialog.pdb
+G:\ies1819\@ DESARROLLO\3-3\20150128\Dialog\Dialog\bin\Debug\Dialog.xml
+G:\ies1819\@ DESARROLLO\3-3\20150128\Dialog\Dialog\obj\x86\Debug\WindowsApplication1.Form1.resources
+G:\ies1819\@ DESARROLLO\3-3\20150128\Dialog\Dialog\obj\x86\Debug\WindowsApplication1.Resources.resources
+G:\ies1819\@ DESARROLLO\3-3\20150128\Dialog\Dialog\obj\x86\Debug\Dialog.vbproj.GenerateResource.Cache
+G:\ies1819\@ DESARROLLO\3-3\dialogoComun\Dialog\obj\x86\Debug\Dialog.exe
+G:\ies1819\@ DESARROLLO\3-3\dialogoComun\Dialog\obj\x86\Debug\Dialog.xml
+G:\ies1819\@ DESARROLLO\3-3\dialogoComun\Dialog\obj\x86\Debug\Dialog.pdb
+G:\ies1819\@ DESARROLLO\3-3\dialogoComun\Dialog\bin\Debug\Dialog.exe
+G:\ies1819\@ DESARROLLO\3-3\dialogoComun\Dialog\bin\Debug\Dialog.pdb
+G:\ies1819\@ DESARROLLO\3-3\dialogoComun\Dialog\bin\Debug\Dialog.xml
+G:\ies1819\@ DESARROLLO\3-3\dialogoComun\Dialog\obj\x86\Debug\WindowsApplication1.Form1.resources
+G:\ies1819\@ DESARROLLO\3-3\dialogoComun\Dialog\obj\x86\Debug\WindowsApplication1.Resources.resources
+G:\ies1819\@ DESARROLLO\3-3\dialogoComun\Dialog\obj\x86\Debug\Dialog.vbproj.GenerateResource.Cache
+F:\00-ies2122\B-DM2E-INTERFACES\03.03\dialogoComun\Dialog\obj\x86\Debug\Dialog.exe
+F:\00-ies2122\B-DM2E-INTERFACES\03.03\dialogoComun\Dialog\obj\x86\Debug\Dialog.xml
+F:\00-ies2122\B-DM2E-INTERFACES\03.03\dialogoComun\Dialog\obj\x86\Debug\Dialog.pdb
+F:\00-ies2122\B-DM2E-INTERFACES\03.03\dialogoComun\Dialog\bin\Debug\Dialog.exe
+F:\00-ies2122\B-DM2E-INTERFACES\03.03\dialogoComun\Dialog\bin\Debug\Dialog.pdb
+F:\00-ies2122\B-DM2E-INTERFACES\03.03\dialogoComun\Dialog\bin\Debug\Dialog.xml
+F:\00-ies2122\B-DM2E-INTERFACES\03.03\dialogoComun\Dialog\obj\x86\Debug\WindowsApplication1.Form1.resources
+F:\00-ies2122\B-DM2E-INTERFACES\03.03\dialogoComun\Dialog\obj\x86\Debug\WindowsApplication1.Resources.resources
+F:\00-ies2122\B-DM2E-INTERFACES\03.03\dialogoComun\Dialog\obj\x86\Debug\Dialog.vbproj.GenerateResource.Cache
+D:\00-IES2425\GB-DM2E\1.material\03.03\dialogoComun\Dialog\obj\x86\Debug\Dialog.exe
+D:\00-IES2425\GB-DM2E\1.material\03.03\dialogoComun\Dialog\obj\x86\Debug\Dialog.xml
+D:\00-IES2425\GB-DM2E\1.material\03.03\dialogoComun\Dialog\obj\x86\Debug\Dialog.pdb
+D:\00-IES2425\GB-DM2E\1.material\03.03\dialogoComun\Dialog\bin\Debug\Dialog.exe
+D:\00-IES2425\GB-DM2E\1.material\03.03\dialogoComun\Dialog\bin\Debug\Dialog.pdb
+D:\00-IES2425\GB-DM2E\1.material\03.03\dialogoComun\Dialog\bin\Debug\Dialog.xml
+D:\00-IES2425\GB-DM2E\1.material\03.03\dialogoComun\Dialog\obj\x86\Debug\WindowsApplication1.Form1.resources
+D:\00-IES2425\GB-DM2E\1.material\03.03\dialogoComun\Dialog\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\00-IES2425\GB-DM2E\1.material\03.03\dialogoComun\Dialog\obj\x86\Debug\Dialog.vbproj.GenerateResource.Cache

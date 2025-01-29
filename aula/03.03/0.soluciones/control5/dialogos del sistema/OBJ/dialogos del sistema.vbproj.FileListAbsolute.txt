@@ -1,0 +1,40 @@
+O:\IES clara del rey\DAI\profe\proyectos\dialogos del sistema\dialogos del sistema\bin\Debug\dialogos del sistema.exe
+O:\IES clara del rey\DAI\profe\proyectos\dialogos del sistema\dialogos del sistema\bin\Debug\dialogos del sistema.pdb
+O:\IES clara del rey\DAI\profe\proyectos\dialogos del sistema\dialogos del sistema\bin\Debug\dialogos del sistema.xml
+O:\IES clara del rey\DAI\profe\proyectos\dialogos del sistema\dialogos del sistema\obj\Debug\ResolveAssemblyReference.cache
+O:\IES clara del rey\DAI\profe\proyectos\dialogos del sistema\dialogos del sistema\obj\Debug\dialogos_del_sistema.Form1.resources
+O:\IES clara del rey\DAI\profe\proyectos\dialogos del sistema\dialogos del sistema\obj\Debug\dialogos_del_sistema.Resources.resources
+O:\IES clara del rey\DAI\profe\proyectos\dialogos del sistema\dialogos del sistema\obj\Debug\dialogos del sistema.vbproj.GenerateResource.Cache
+O:\IES clara del rey\DAI\profe\proyectos\dialogos del sistema\dialogos del sistema\obj\Debug\dialogos del sistema.exe
+O:\IES clara del rey\DAI\profe\proyectos\dialogos del sistema\dialogos del sistema\obj\Debug\dialogos del sistema.xml
+O:\IES clara del rey\DAI\profe\proyectos\dialogos del sistema\dialogos del sistema\obj\Debug\dialogos del sistema.pdb
+E:\IES\DAI\entornos\proyectos en clase\dialogos del sistema\dialogos del sistema\obj\Debug\dialogos del sistema.exe
+E:\IES\DAI\entornos\proyectos en clase\dialogos del sistema\dialogos del sistema\obj\Debug\dialogos del sistema.xml
+E:\IES\DAI\entornos\proyectos en clase\dialogos del sistema\dialogos del sistema\obj\Debug\dialogos del sistema.pdb
+E:\IES\DAI\entornos\proyectos en clase\dialogos del sistema\dialogos del sistema\bin\Debug\dialogos del sistema.exe
+E:\IES\DAI\entornos\proyectos en clase\dialogos del sistema\dialogos del sistema\bin\Debug\dialogos del sistema.pdb
+E:\IES\DAI\entornos\proyectos en clase\dialogos del sistema\dialogos del sistema\bin\Debug\dialogos del sistema.xml
+E:\IES\DAI\entornos\proyectos en clase\dialogos del sistema\dialogos del sistema\obj\Debug\ResolveAssemblyReference.cache
+E:\IES\DAI\entornos\proyectos en clase\dialogos del sistema\dialogos del sistema\obj\Debug\dialogos_del_sistema.Form1.resources
+E:\IES\DAI\entornos\proyectos en clase\dialogos del sistema\dialogos del sistema\obj\Debug\dialogos_del_sistema.Resources.resources
+E:\IES\DAI\entornos\proyectos en clase\dialogos del sistema\dialogos del sistema\obj\Debug\dialogos del sistema.vbproj.GenerateResource.Cache
+E:\IES\DAI\entornos\proyectos en clase\menus1\dialogos del sistema\obj\Debug\dialogos del sistema.exe
+E:\IES\DAI\entornos\proyectos en clase\menus1\dialogos del sistema\obj\Debug\dialogos del sistema.xml
+E:\IES\DAI\entornos\proyectos en clase\menus1\dialogos del sistema\obj\Debug\dialogos del sistema.pdb
+E:\IES\DAI\entornos\proyectos en clase\menus1\dialogos del sistema\bin\Debug\dialogos del sistema.exe
+E:\IES\DAI\entornos\proyectos en clase\menus1\dialogos del sistema\bin\Debug\dialogos del sistema.pdb
+E:\IES\DAI\entornos\proyectos en clase\menus1\dialogos del sistema\bin\Debug\dialogos del sistema.xml
+E:\IES\DAI\entornos\proyectos en clase\menus1\dialogos del sistema\obj\Debug\ResolveAssemblyReference.cache
+E:\IES\DAI\entornos\proyectos en clase\menus1\dialogos del sistema\obj\Debug\dialogos_del_sistema.Form1.resources
+E:\IES\DAI\entornos\proyectos en clase\menus1\dialogos del sistema\obj\Debug\dialogos_del_sistema.Resources.resources
+E:\IES\DAI\entornos\proyectos en clase\menus1\dialogos del sistema\obj\Debug\dialogos del sistema.vbproj.GenerateResource.Cache
+E:\IES\DAI\entornos\proyectos terminados\menus1\dialogos del sistema\obj\Debug\dialogos del sistema.exe
+E:\IES\DAI\entornos\proyectos terminados\menus1\dialogos del sistema\obj\Debug\dialogos del sistema.xml
+E:\IES\DAI\entornos\proyectos terminados\menus1\dialogos del sistema\obj\Debug\dialogos del sistema.pdb
+E:\IES\DAI\entornos\proyectos terminados\menus1\dialogos del sistema\bin\Debug\dialogos del sistema.exe
+E:\IES\DAI\entornos\proyectos terminados\menus1\dialogos del sistema\bin\Debug\dialogos del sistema.pdb
+E:\IES\DAI\entornos\proyectos terminados\menus1\dialogos del sistema\bin\Debug\dialogos del sistema.xml
+E:\IES\DAI\entornos\proyectos terminados\menus1\dialogos del sistema\obj\Debug\ResolveAssemblyReference.cache
+E:\IES\DAI\entornos\proyectos terminados\menus1\dialogos del sistema\obj\Debug\dialogos_del_sistema.Form1.resources
+E:\IES\DAI\entornos\proyectos terminados\menus1\dialogos del sistema\obj\Debug\dialogos_del_sistema.Resources.resources
+E:\IES\DAI\entornos\proyectos terminados\menus1\dialogos del sistema\obj\Debug\dialogos del sistema.vbproj.GenerateResource.Cache
