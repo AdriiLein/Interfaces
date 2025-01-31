@@ -1,0 +1,105 @@
+C:\Users\hola\documents\visual studio 2010\Projects\controlControles\controlControles\bin\Debug\controlControles.exe
+C:\Users\hola\documents\visual studio 2010\Projects\controlControles\controlControles\bin\Debug\controlControles.pdb
+C:\Users\hola\documents\visual studio 2010\Projects\controlControles\controlControles\bin\Debug\controlControles.xml
+C:\Users\hola\documents\visual studio 2010\Projects\controlControles\controlControles\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\hola\documents\visual studio 2010\Projects\controlControles\controlControles\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\hola\documents\visual studio 2010\Projects\controlControles\controlControles\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\hola\documents\visual studio 2010\Projects\controlControles\controlControles\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\hola\documents\visual studio 2010\Projects\controlControles\controlControles\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\hola\documents\visual studio 2010\Projects\controlControles\controlControles\obj\x86\Debug\controlControles.exe
+C:\Users\hola\documents\visual studio 2010\Projects\controlControles\controlControles\obj\x86\Debug\controlControles.xml
+C:\Users\hola\documents\visual studio 2010\Projects\controlControles\controlControles\obj\x86\Debug\controlControles.pdb
+C:\Users\hola\Desktop\20150108\controlControles\controlControles\obj\x86\Debug\controlControles.exe
+C:\Users\hola\Desktop\20150108\controlControles\controlControles\obj\x86\Debug\controlControles.xml
+C:\Users\hola\Desktop\20150108\controlControles\controlControles\obj\x86\Debug\controlControles.pdb
+C:\Users\hola\Desktop\20150108\controlControles\controlControles\bin\Debug\controlControles.exe
+C:\Users\hola\Desktop\20150108\controlControles\controlControles\bin\Debug\controlControles.pdb
+C:\Users\hola\Desktop\20150108\controlControles\controlControles\bin\Debug\controlControles.xml
+C:\Users\hola\Desktop\20150108\controlControles\controlControles\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\hola\Desktop\20150108\controlControles\controlControles\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\hola\Desktop\20150108\controlControles\controlControles\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\hola\Desktop\20150108\controlControles\controlControles\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\hola\Desktop\20150108\controlControles\controlControles\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\ies1819\@ DESARROLLO\3-2\20150108\controlControles\controlControles\obj\x86\Debug\controlControles.exe
+G:\ies1819\@ DESARROLLO\3-2\20150108\controlControles\controlControles\obj\x86\Debug\controlControles.xml
+G:\ies1819\@ DESARROLLO\3-2\20150108\controlControles\controlControles\obj\x86\Debug\controlControles.pdb
+G:\ies1819\@ DESARROLLO\3-2\20150108\controlControles\controlControles\bin\Debug\controlControles.exe
+G:\ies1819\@ DESARROLLO\3-2\20150108\controlControles\controlControles\bin\Debug\controlControles.pdb
+G:\ies1819\@ DESARROLLO\3-2\20150108\controlControles\controlControles\bin\Debug\controlControles.xml
+G:\ies1819\@ DESARROLLO\3-2\20150108\controlControles\controlControles\obj\x86\Debug\WindowsApplication1.Form1.resources
+G:\ies1819\@ DESARROLLO\3-2\20150108\controlControles\controlControles\obj\x86\Debug\WindowsApplication1.Resources.resources
+G:\ies1819\@ DESARROLLO\3-2\20150108\controlControles\controlControles\obj\x86\Debug\controlControles.vbproj.GenerateResource.Cache
+G:\ies1819\@ DESARROLLO\3-2\controlControles\controlControles\obj\x86\Debug\controlControles.exe
+G:\ies1819\@ DESARROLLO\3-2\controlControles\controlControles\obj\x86\Debug\controlControles.xml
+G:\ies1819\@ DESARROLLO\3-2\controlControles\controlControles\obj\x86\Debug\controlControles.pdb
+G:\ies1819\@ DESARROLLO\3-2\controlControles\controlControles\bin\Debug\controlControles.exe
+G:\ies1819\@ DESARROLLO\3-2\controlControles\controlControles\bin\Debug\controlControles.pdb
+G:\ies1819\@ DESARROLLO\3-2\controlControles\controlControles\bin\Debug\controlControles.xml
+G:\ies1819\@ DESARROLLO\3-2\controlControles\controlControles\obj\x86\Debug\WindowsApplication1.Form1.resources
+G:\ies1819\@ DESARROLLO\3-2\controlControles\controlControles\obj\x86\Debug\WindowsApplication1.Resources.resources
+G:\ies1819\@ DESARROLLO\3-2\controlControles\controlControles\obj\x86\Debug\controlControles.vbproj.GenerateResource.Cache
+\\Vboxsvr\share\3-2\controlControles\controlControles\obj\x86\Debug\controlControles.exe
+\\Vboxsvr\share\3-2\controlControles\controlControles\obj\x86\Debug\controlControles.xml
+\\Vboxsvr\share\3-2\controlControles\controlControles\obj\x86\Debug\controlControles.pdb
+\\Vboxsvr\share\3-2\controlControles\controlControles\bin\Debug\controlControles.exe
+\\Vboxsvr\share\3-2\controlControles\controlControles\bin\Debug\controlControles.pdb
+\\Vboxsvr\share\3-2\controlControles\controlControles\bin\Debug\controlControles.xml
+\\Vboxsvr\share\3-2\controlControles\controlControles\obj\x86\Debug\ResolveAssemblyReference.cache
+\\Vboxsvr\share\3-2\controlControles\controlControles\obj\x86\Debug\WindowsApplication1.Form1.resources
+\\Vboxsvr\share\3-2\controlControles\controlControles\obj\x86\Debug\WindowsApplication1.Resources.resources
+\\Vboxsvr\share\3-2\controlControles\controlControles\obj\x86\Debug\GenerateResource.read.1.tlog
+\\Vboxsvr\share\3-2\controlControles\controlControles\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Vespertino\Desktop\VISUAL\ejercicios\controlControles\controlControles\obj\x86\Debug\controlControles.exe
+C:\Users\Vespertino\Desktop\VISUAL\ejercicios\controlControles\controlControles\obj\x86\Debug\controlControles.xml
+C:\Users\Vespertino\Desktop\VISUAL\ejercicios\controlControles\controlControles\obj\x86\Debug\controlControles.pdb
+C:\Users\Vespertino\Desktop\VISUAL\ejercicios\controlControles\controlControles\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\Vespertino\Desktop\VISUAL\ejercicios\controlControles\controlControles\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Vespertino\Desktop\VISUAL\ejercicios\controlControles\controlControles\obj\x86\Debug\controlControles.vbproj.GenerateResource.Cache
+C:\Users\Vespertino\Desktop\VISUAL\ejercicios\controlControles\controlControles\bin\Debug\controlControles.exe
+C:\Users\Vespertino\Desktop\VISUAL\ejercicios\controlControles\controlControles\bin\Debug\controlControles.pdb
+C:\Users\Vespertino\Desktop\VISUAL\ejercicios\controlControles\controlControles\bin\Debug\controlControles.xml
+C:\Users\mc\Desktop\visual\03.02\controlControles2\controlControles\obj\x86\Debug\controlControles.exe
+C:\Users\mc\Desktop\visual\03.02\controlControles2\controlControles\obj\x86\Debug\controlControles.xml
+C:\Users\mc\Desktop\visual\03.02\controlControles2\controlControles\obj\x86\Debug\controlControles.pdb
+C:\Users\mc\Desktop\visual\03.02\controlControles2\controlControles\bin\Debug\controlControles.exe
+C:\Users\mc\Desktop\visual\03.02\controlControles2\controlControles\bin\Debug\controlControles.pdb
+C:\Users\mc\Desktop\visual\03.02\controlControles2\controlControles\bin\Debug\controlControles.xml
+C:\Users\mc\Desktop\visual\03.02\controlControles2\controlControles\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\mc\Desktop\visual\03.02\controlControles2\controlControles\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\mc\Desktop\visual\03.02\controlControles2\controlControles\obj\x86\Debug\controlControles.vbproj.GenerateResource.Cache
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\controlControles2\controlControles\obj\x86\Debug\controlControles.exe
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\controlControles2\controlControles\obj\x86\Debug\controlControles.xml
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\controlControles2\controlControles\obj\x86\Debug\controlControles.pdb
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\controlControles2\controlControles\bin\Debug\controlControles.exe
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\controlControles2\controlControles\bin\Debug\controlControles.pdb
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\controlControles2\controlControles\bin\Debug\controlControles.xml
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\controlControles2\controlControles\obj\x86\Debug\WindowsApplication1.Form1.resources
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\controlControles2\controlControles\obj\x86\Debug\WindowsApplication1.Resources.resources
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\controlControles2\controlControles\obj\x86\Debug\controlControles.vbproj.GenerateResource.Cache
+C:\Users\mc\Desktop\VB-ejercicios\03.02\controlControles2\controlControles\obj\x86\Debug\controlControles.exe
+C:\Users\mc\Desktop\VB-ejercicios\03.02\controlControles2\controlControles\obj\x86\Debug\controlControles.xml
+C:\Users\mc\Desktop\VB-ejercicios\03.02\controlControles2\controlControles\obj\x86\Debug\controlControles.pdb
+C:\Users\mc\Desktop\VB-ejercicios\03.02\controlControles2\controlControles\bin\Debug\controlControles.exe
+C:\Users\mc\Desktop\VB-ejercicios\03.02\controlControles2\controlControles\bin\Debug\controlControles.pdb
+C:\Users\mc\Desktop\VB-ejercicios\03.02\controlControles2\controlControles\bin\Debug\controlControles.xml
+C:\Users\mc\Desktop\VB-ejercicios\03.02\controlControles2\controlControles\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\mc\Desktop\VB-ejercicios\03.02\controlControles2\controlControles\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\mc\Desktop\VB-ejercicios\03.02\controlControles2\controlControles\obj\x86\Debug\controlControles.vbproj.GenerateResource.Cache
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\controlControles2\controlControles\obj\x86\Debug\controlControles.exe
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\controlControles2\controlControles\obj\x86\Debug\controlControles.xml
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\controlControles2\controlControles\obj\x86\Debug\controlControles.pdb
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\controlControles2\controlControles\bin\Debug\controlControles.exe
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\controlControles2\controlControles\bin\Debug\controlControles.pdb
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\controlControles2\controlControles\bin\Debug\controlControles.xml
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\controlControles2\controlControles\obj\x86\Debug\WindowsApplication1.Form1.resources
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\controlControles2\controlControles\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\controlControles2\controlControles\obj\x86\Debug\controlControles.vbproj.GenerateResource.Cache
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\controlControles2\controlControles\obj\x86\Debug\controlControles.exe
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\controlControles2\controlControles\obj\x86\Debug\controlControles.xml
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\controlControles2\controlControles\obj\x86\Debug\controlControles.pdb
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\controlControles2\controlControles\bin\Debug\controlControles.exe
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\controlControles2\controlControles\bin\Debug\controlControles.pdb
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\controlControles2\controlControles\bin\Debug\controlControles.xml
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\controlControles2\controlControles\obj\x86\Debug\WindowsApplication1.Form1.resources
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\controlControles2\controlControles\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\controlControles2\controlControles\obj\x86\Debug\controlControles.vbproj.GenerateResource.Cache

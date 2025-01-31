@@ -1,0 +1,50 @@
+C:\Users\hola\documents\visual studio 2010\Projects\calculadora2015\calculadora2015\bin\Debug\calculadora2015.exe
+C:\Users\hola\documents\visual studio 2010\Projects\calculadora2015\calculadora2015\bin\Debug\calculadora2015.pdb
+C:\Users\hola\documents\visual studio 2010\Projects\calculadora2015\calculadora2015\bin\Debug\calculadora2015.xml
+C:\Users\hola\documents\visual studio 2010\Projects\calculadora2015\calculadora2015\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\hola\documents\visual studio 2010\Projects\calculadora2015\calculadora2015\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\hola\documents\visual studio 2010\Projects\calculadora2015\calculadora2015\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\hola\documents\visual studio 2010\Projects\calculadora2015\calculadora2015\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\hola\documents\visual studio 2010\Projects\calculadora2015\calculadora2015\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\hola\documents\visual studio 2010\Projects\calculadora2015\calculadora2015\obj\x86\Debug\calculadora2015.exe
+C:\Users\hola\documents\visual studio 2010\Projects\calculadora2015\calculadora2015\obj\x86\Debug\calculadora2015.xml
+C:\Users\hola\documents\visual studio 2010\Projects\calculadora2015\calculadora2015\obj\x86\Debug\calculadora2015.pdb
+G:\ies1819\@ DESARROLLO\3-2\20150108\calculadora2015\calculadora2015\obj\x86\Debug\calculadora2015.exe
+G:\ies1819\@ DESARROLLO\3-2\20150108\calculadora2015\calculadora2015\obj\x86\Debug\calculadora2015.xml
+G:\ies1819\@ DESARROLLO\3-2\20150108\calculadora2015\calculadora2015\obj\x86\Debug\calculadora2015.pdb
+G:\ies1819\@ DESARROLLO\3-2\20150108\calculadora2015\calculadora2015\bin\Debug\calculadora2015.exe
+G:\ies1819\@ DESARROLLO\3-2\20150108\calculadora2015\calculadora2015\bin\Debug\calculadora2015.pdb
+G:\ies1819\@ DESARROLLO\3-2\20150108\calculadora2015\calculadora2015\bin\Debug\calculadora2015.xml
+G:\ies1819\@ DESARROLLO\3-2\20150108\calculadora2015\calculadora2015\obj\x86\Debug\WindowsApplication1.Form1.resources
+G:\ies1819\@ DESARROLLO\3-2\20150108\calculadora2015\calculadora2015\obj\x86\Debug\WindowsApplication1.Resources.resources
+G:\ies1819\@ DESARROLLO\3-2\20150108\calculadora2015\calculadora2015\obj\x86\Debug\calculadora2015.vbproj.GenerateResource.Cache
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\calculadoraInterface\calculadora2015\obj\x86\Debug\calculadora2015.exe
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\calculadoraInterface\calculadora2015\obj\x86\Debug\calculadora2015.xml
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\calculadoraInterface\calculadora2015\obj\x86\Debug\calculadora2015.pdb
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\calculadoraInterface\calculadora2015\bin\Debug\calculadora2015.exe
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\calculadoraInterface\calculadora2015\bin\Debug\calculadora2015.pdb
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\calculadoraInterface\calculadora2015\bin\Debug\calculadora2015.xml
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\calculadoraInterface\calculadora2015\obj\x86\Debug\WindowsApplication1.Form1.resources
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\calculadoraInterface\calculadora2015\obj\x86\Debug\WindowsApplication1.Resources.resources
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\calculadoraInterface\calculadora2015\obj\x86\Debug\calculadora2015.vbproj.GenerateResource.Cache
+C:\Users\mc\Desktop\VB-ejercicios\03.02\calculadoraInterface\calculadora2015\obj\x86\Debug\calculadora2015.exe
+C:\Users\mc\Desktop\VB-ejercicios\03.02\calculadoraInterface\calculadora2015\obj\x86\Debug\calculadora2015.xml
+C:\Users\mc\Desktop\VB-ejercicios\03.02\calculadoraInterface\calculadora2015\obj\x86\Debug\calculadora2015.pdb
+C:\Users\mc\Desktop\VB-ejercicios\03.02\calculadoraInterface\calculadora2015\bin\Debug\calculadora2015.exe
+C:\Users\mc\Desktop\VB-ejercicios\03.02\calculadoraInterface\calculadora2015\bin\Debug\calculadora2015.pdb
+C:\Users\mc\Desktop\VB-ejercicios\03.02\calculadoraInterface\calculadora2015\bin\Debug\calculadora2015.xml
+C:\Users\mc\Desktop\VB-ejercicios\03.02\calculadoraInterface\calculadora2015\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\mc\Desktop\VB-ejercicios\03.02\calculadoraInterface\calculadora2015\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\mc\Desktop\VB-ejercicios\03.02\calculadoraInterface\calculadora2015\obj\x86\Debug\calculadora2015.vbproj.GenerateResource.Cache
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\calculadoraInterface\calculadora2015\obj\x86\Debug\calculadora2015.exe
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\calculadoraInterface\calculadora2015\obj\x86\Debug\calculadora2015.xml
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\calculadoraInterface\calculadora2015\obj\x86\Debug\calculadora2015.pdb
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\calculadoraInterface\calculadora2015\obj\x86\Debug\calculadora2015.exe
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\calculadoraInterface\calculadora2015\obj\x86\Debug\calculadora2015.xml
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\calculadoraInterface\calculadora2015\obj\x86\Debug\calculadora2015.pdb
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\calculadoraInterface\calculadora2015\bin\Debug\calculadora2015.exe
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\calculadoraInterface\calculadora2015\bin\Debug\calculadora2015.pdb
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\calculadoraInterface\calculadora2015\bin\Debug\calculadora2015.xml
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\calculadoraInterface\calculadora2015\obj\x86\Debug\WindowsApplication1.Form1.resources
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\calculadoraInterface\calculadora2015\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\calculadoraInterface\calculadora2015\obj\x86\Debug\calculadora2015.vbproj.GenerateResource.Cache

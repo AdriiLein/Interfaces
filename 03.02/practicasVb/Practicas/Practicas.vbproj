@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4124F497-3A72-4703-926B-AF36147D9BA3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Practicas.My.MyApplication</StartupObject>
+    <RootNamespace>Practicas</RootNamespace>
+    <AssemblyName>Practicas</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <OptionStrict>On</OptionStrict>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Practicas.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Practicas.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmCalc2.Designer.vb">
+      <DependentUpon>frmCalc2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalc2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPruebaTuMente2.Designer.vb">
+      <DependentUpon>frmPruebaTuMente2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPruebaTuMente2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMueveFrm2.Designer.vb">
+      <DependentUpon>frmMueveFrm2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMueveFrm2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgenda.Designer.vb">
+      <DependentUpon>frmAgenda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgenda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDibujaFiguras.Designer.vb">
+      <DependentUpon>frmDibujaFiguras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDibujaFiguras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fichero.vb" />
+    <Compile Include="frmCalculadora.Designer.vb">
+      <DependentUpon>frmCalculadora.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalculadora.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFiguraDibujada.Designer.vb">
+      <DependentUpon>frmFiguraDibujada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFiguraDibujada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantenimientoAgenda.Designer.vb">
+      <DependentUpon>frmMantenimientoAgenda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMantenimientoAgenda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.vb">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMueveFrm.Designer.vb">
+      <DependentUpon>frmMueveFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMueveFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPruebaTuMente.Designer.vb">
+      <DependentUpon>frmPruebaTuMente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPruebaTuMente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSorteo.Designer.vb">
+      <DependentUpon>frmSorteo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSorteo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmCalc2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCalc2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPruebaTuMente2.resx">
+      <DependentUpon>frmPruebaTuMente2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMueveFrm2.resx">
+      <DependentUpon>frmMueveFrm2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgenda.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAgenda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDibujaFiguras.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDibujaFiguras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalculadora.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCalculadora.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFiguraDibujada.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFiguraDibujada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantenimientoAgenda.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMantenimientoAgenda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMueveFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMueveFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPruebaTuMente.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPruebaTuMente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSorteo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSorteo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

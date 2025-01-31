@@ -1,0 +1,87 @@
+C:\Users\manuel\Desktop\desarrollo\vb\menus\menus\bin\Debug\menus.exe
+C:\Users\manuel\Desktop\desarrollo\vb\menus\menus\bin\Debug\menus.pdb
+C:\Users\manuel\Desktop\desarrollo\vb\menus\menus\bin\Debug\menus.xml
+C:\Users\manuel\Desktop\desarrollo\vb\menus\menus\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\manuel\Desktop\desarrollo\vb\menus\menus\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\manuel\Desktop\desarrollo\vb\menus\menus\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\manuel\Desktop\desarrollo\vb\menus\menus\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\manuel\Desktop\desarrollo\vb\menus\menus\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\manuel\Desktop\desarrollo\vb\menus\menus\obj\x86\Debug\menus.exe
+C:\Users\manuel\Desktop\desarrollo\vb\menus\menus\obj\x86\Debug\menus.xml
+C:\Users\manuel\Desktop\desarrollo\vb\menus\menus\obj\x86\Debug\menus.pdb
+G:\ies\ies\escritorio\1-desarrollo\20131212-menus\menus\obj\x86\Debug\menus.exe
+G:\ies\ies\escritorio\1-desarrollo\20131212-menus\menus\obj\x86\Debug\menus.xml
+G:\ies\ies\escritorio\1-desarrollo\20131212-menus\menus\obj\x86\Debug\menus.pdb
+C:\Users\manu\Dropbox\escritorio\1-desarrollo\20131212-menus\menus\obj\x86\Debug\menus.exe
+C:\Users\manu\Dropbox\escritorio\1-desarrollo\20131212-menus\menus\obj\x86\Debug\menus.xml
+C:\Users\manu\Dropbox\escritorio\1-desarrollo\20131212-menus\menus\obj\x86\Debug\menus.pdb
+H:\htdocs\z\ies1314\ies no cabe\escritorio\1-desarrollo\20131212-menus\menus\obj\x86\Debug\menus.exe
+H:\htdocs\z\ies1314\ies no cabe\escritorio\1-desarrollo\20131212-menus\menus\obj\x86\Debug\menus.xml
+H:\htdocs\z\ies1314\ies no cabe\escritorio\1-desarrollo\20131212-menus\menus\obj\x86\Debug\menus.pdb
+H:\htdocs\z\ies1314\ies no cabe\escritorio\1-desarrollo\20131212-menus\menus\bin\Debug\menus.exe
+H:\htdocs\z\ies1314\ies no cabe\escritorio\1-desarrollo\20131212-menus\menus\bin\Debug\menus.pdb
+H:\htdocs\z\ies1314\ies no cabe\escritorio\1-desarrollo\20131212-menus\menus\bin\Debug\menus.xml
+H:\htdocs\z\ies1314\ies no cabe\escritorio\1-desarrollo\20131212-menus\menus\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\htdocs\z\ies1314\ies no cabe\escritorio\1-desarrollo\20131212-menus\menus\obj\x86\Debug\WindowsApplication1.Form1.resources
+H:\htdocs\z\ies1314\ies no cabe\escritorio\1-desarrollo\20131212-menus\menus\obj\x86\Debug\WindowsApplication1.Resources.resources
+H:\htdocs\z\ies1314\ies no cabe\escritorio\1-desarrollo\20131212-menus\menus\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\htdocs\z\ies1314\ies no cabe\escritorio\1-desarrollo\20131212-menus\menus\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\htdocs\z\ies1314\ies no cabe\escritorio\1-desarrollo\20131212-menus\menus\obj\x86\Debug\menus.exe
+F:\htdocs\z\ies1314\ies no cabe\escritorio\1-desarrollo\20131212-menus\menus\obj\x86\Debug\menus.xml
+F:\htdocs\z\ies1314\ies no cabe\escritorio\1-desarrollo\20131212-menus\menus\obj\x86\Debug\menus.pdb
+F:\htdocs\z\ies1314\ies no cabe\escritorio\1-desarrollo\20131212-menus\menus\bin\Debug\menus.exe
+F:\htdocs\z\ies1314\ies no cabe\escritorio\1-desarrollo\20131212-menus\menus\bin\Debug\menus.pdb
+F:\htdocs\z\ies1314\ies no cabe\escritorio\1-desarrollo\20131212-menus\menus\bin\Debug\menus.xml
+F:\htdocs\z\ies1314\ies no cabe\escritorio\1-desarrollo\20131212-menus\menus\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\htdocs\z\ies1314\ies no cabe\escritorio\1-desarrollo\20131212-menus\menus\obj\x86\Debug\WindowsApplication1.Form1.resources
+F:\htdocs\z\ies1314\ies no cabe\escritorio\1-desarrollo\20131212-menus\menus\obj\x86\Debug\WindowsApplication1.Resources.resources
+F:\htdocs\z\ies1314\ies no cabe\escritorio\1-desarrollo\20131212-menus\menus\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\htdocs\z\ies1314\ies no cabe\escritorio\1-desarrollo\20131212-menus\menus\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\ies1819\@ DESARROLLO\3-3\menus\20131212-menus\menus\obj\x86\Debug\menus.exe
+G:\ies1819\@ DESARROLLO\3-3\menus\20131212-menus\menus\obj\x86\Debug\menus.xml
+G:\ies1819\@ DESARROLLO\3-3\menus\20131212-menus\menus\obj\x86\Debug\menus.pdb
+G:\ies1819\@ DESARROLLO\3-3\menus\20131212-menus\menus\bin\Debug\menus.exe
+G:\ies1819\@ DESARROLLO\3-3\menus\20131212-menus\menus\bin\Debug\menus.pdb
+G:\ies1819\@ DESARROLLO\3-3\menus\20131212-menus\menus\bin\Debug\menus.xml
+G:\ies1819\@ DESARROLLO\3-3\menus\20131212-menus\menus\obj\x86\Debug\WindowsApplication1.Form1.resources
+G:\ies1819\@ DESARROLLO\3-3\menus\20131212-menus\menus\obj\x86\Debug\WindowsApplication1.Resources.resources
+G:\ies1819\@ DESARROLLO\3-3\menus\20131212-menus\menus\obj\x86\Debug\menus.vbproj.GenerateResource.Cache
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\menus\20131212-menus\menus\obj\x86\Debug\menus.exe
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\menus\20131212-menus\menus\obj\x86\Debug\menus.xml
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\menus\20131212-menus\menus\obj\x86\Debug\menus.pdb
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\menus\20131212-menus\menus\bin\Debug\menus.exe
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\menus\20131212-menus\menus\bin\Debug\menus.pdb
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\menus\20131212-menus\menus\bin\Debug\menus.xml
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\menus\20131212-menus\menus\obj\x86\Debug\WindowsApplication1.Form1.resources
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\menus\20131212-menus\menus\obj\x86\Debug\WindowsApplication1.Resources.resources
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\menus\20131212-menus\menus\obj\x86\Debug\menus.vbproj.GenerateResource.Cache
+C:\Users\mc\Desktop\VB-ejercicios\03.02\menus\20131212-menus\menus\obj\x86\Debug\menus.exe
+C:\Users\mc\Desktop\VB-ejercicios\03.02\menus\20131212-menus\menus\obj\x86\Debug\menus.xml
+C:\Users\mc\Desktop\VB-ejercicios\03.02\menus\20131212-menus\menus\obj\x86\Debug\menus.pdb
+C:\Users\mc\Desktop\VB-ejercicios\03.02\menus\20131212-menus\menus\bin\Debug\menus.exe
+C:\Users\mc\Desktop\VB-ejercicios\03.02\menus\20131212-menus\menus\bin\Debug\menus.pdb
+C:\Users\mc\Desktop\VB-ejercicios\03.02\menus\20131212-menus\menus\bin\Debug\menus.xml
+C:\Users\mc\Desktop\VB-ejercicios\03.02\menus\20131212-menus\menus\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\mc\Desktop\VB-ejercicios\03.02\menus\20131212-menus\menus\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\mc\Desktop\VB-ejercicios\03.02\menus\20131212-menus\menus\obj\x86\Debug\menus.vbproj.GenerateResource.Cache
+C:\Users\mc\Desktop\VB-ejercicios\03.02\20131212-menus\menus\obj\x86\Debug\menus.exe
+C:\Users\mc\Desktop\VB-ejercicios\03.02\20131212-menus\menus\obj\x86\Debug\menus.xml
+C:\Users\mc\Desktop\VB-ejercicios\03.02\20131212-menus\menus\obj\x86\Debug\menus.pdb
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\menus\menus\obj\x86\Debug\menus.exe
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\menus\menus\obj\x86\Debug\menus.xml
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\menus\menus\obj\x86\Debug\menus.pdb
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\menus\menus\bin\Debug\menus.exe
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\menus\menus\bin\Debug\menus.pdb
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\menus\menus\bin\Debug\menus.xml
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\menus\menus\obj\x86\Debug\WindowsApplication1.Form1.resources
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\menus\menus\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\menus\menus\obj\x86\Debug\menus.vbproj.GenerateResource.Cache
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\menus\menus\obj\x86\Debug\menus.exe
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\menus\menus\obj\x86\Debug\menus.xml
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\menus\menus\obj\x86\Debug\menus.pdb
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\menus\menus\bin\Debug\menus.exe
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\menus\menus\bin\Debug\menus.pdb
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\menus\menus\bin\Debug\menus.xml
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\menus\menus\obj\x86\Debug\WindowsApplication1.Form1.resources
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\menus\menus\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\menus\menus\obj\x86\Debug\menus.vbproj.GenerateResource.Cache

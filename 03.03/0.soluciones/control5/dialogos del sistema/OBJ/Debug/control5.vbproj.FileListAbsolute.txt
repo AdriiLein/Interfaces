@@ -1,0 +1,39 @@
+G:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\bin\Debug\dialogos del sistema.exe
+G:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\bin\Debug\dialogos del sistema.pdb
+G:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\bin\Debug\dialogos del sistema.xml
+G:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\obj\Debug\ResolveAssemblyReference.cache
+G:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\obj\Debug\dialogos_del_sistema.Dialog1.resources
+G:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\obj\Debug\dialogos_del_sistema.Form1.resources
+G:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\obj\Debug\dialogos_del_sistema.Resources.resources
+G:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\obj\Debug\control5.vbproj.GenerateResource.Cache
+G:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\obj\Debug\dialogos del sistema.exe
+G:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\obj\Debug\dialogos del sistema.xml
+G:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\obj\Debug\dialogos del sistema.pdb
+F:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\obj\Debug\dialogos del sistema.exe
+F:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\obj\Debug\dialogos del sistema.xml
+F:\@entornos\DAI2 proyectos en clase\control5\dialogos del sistema\obj\Debug\dialogos del sistema.pdb
+F:\profesor\ies\2012-2013\desarrollo\control5\dialogos del sistema\obj\Debug\dialogos del sistema.exe
+F:\profesor\ies\2012-2013\desarrollo\control5\dialogos del sistema\obj\Debug\dialogos del sistema.xml
+F:\profesor\ies\2012-2013\desarrollo\control5\dialogos del sistema\obj\Debug\dialogos del sistema.pdb
+F:\profesor\ies\2012-2013\desarrollo\control5\dialogos del sistema\bin\Debug\dialogos del sistema.exe
+F:\profesor\ies\2012-2013\desarrollo\control5\dialogos del sistema\bin\Debug\dialogos del sistema.pdb
+F:\profesor\ies\2012-2013\desarrollo\control5\dialogos del sistema\bin\Debug\dialogos del sistema.xml
+F:\profesor\ies\2012-2013\desarrollo\control5\dialogos del sistema\obj\Debug\ResolveAssemblyReference.cache
+F:\profesor\ies\2012-2013\desarrollo\control5\dialogos del sistema\obj\Debug\dialogos_del_sistema.Dialog1.resources
+F:\profesor\ies\2012-2013\desarrollo\control5\dialogos del sistema\obj\Debug\dialogos_del_sistema.Form1.resources
+F:\profesor\ies\2012-2013\desarrollo\control5\dialogos del sistema\obj\Debug\dialogos_del_sistema.Resources.resources
+F:\profesor\ies\2012-2013\desarrollo\control5\dialogos del sistema\obj\Debug\GenerateResource.read.1.tlog
+F:\profesor\ies\2012-2013\desarrollo\control5\dialogos del sistema\obj\Debug\GenerateResource.write.1.tlog
+G:\ies1819\@ DESARROLLO\3-3\control5\dialogos del sistema\obj\Debug\dialogos del sistema.exe
+G:\ies1819\@ DESARROLLO\3-3\control5\dialogos del sistema\obj\Debug\dialogos del sistema.xml
+G:\ies1819\@ DESARROLLO\3-3\control5\dialogos del sistema\obj\Debug\dialogos del sistema.pdb
+G:\ies1819\@ DESARROLLO\3-3\control5\dialogos del sistema\bin\Debug\dialogos del sistema.exe
+G:\ies1819\@ DESARROLLO\3-3\control5\dialogos del sistema\bin\Debug\dialogos del sistema.pdb
+G:\ies1819\@ DESARROLLO\3-3\control5\dialogos del sistema\bin\Debug\dialogos del sistema.xml
+G:\ies1819\@ DESARROLLO\3-3\control5\dialogos del sistema\obj\Debug\dialogos_del_sistema.Dialog1.resources
+G:\ies1819\@ DESARROLLO\3-3\control5\dialogos del sistema\obj\Debug\dialogos_del_sistema.Form1.resources
+G:\ies1819\@ DESARROLLO\3-3\control5\dialogos del sistema\obj\Debug\dialogos_del_sistema.Resources.resources
+G:\ies1819\@ DESARROLLO\3-3\control5\dialogos del sistema\obj\Debug\control5.vbproj.GenerateResource.Cache
+D:\00-IES2425\GB-DM2E\1.material\03.03\0.soluciones\control5\dialogos del sistema\obj\Debug\dialogos del sistema.exe
+D:\00-IES2425\GB-DM2E\1.material\03.03\0.soluciones\control5\dialogos del sistema\obj\Debug\dialogos del sistema.xml
+D:\00-IES2425\GB-DM2E\1.material\03.03\0.soluciones\control5\dialogos del sistema\obj\Debug\dialogos del sistema.pdb

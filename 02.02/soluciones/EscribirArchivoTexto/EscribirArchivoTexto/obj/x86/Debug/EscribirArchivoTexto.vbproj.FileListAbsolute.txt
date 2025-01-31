@@ -1,0 +1,34 @@
+\\Vboxsvr\share\EscribirArchivoTexto\EscribirArchivoTexto\bin\Debug\EscribirArchivoTexto.exe
+\\Vboxsvr\share\EscribirArchivoTexto\EscribirArchivoTexto\bin\Debug\EscribirArchivoTexto.pdb
+\\Vboxsvr\share\EscribirArchivoTexto\EscribirArchivoTexto\bin\Debug\EscribirArchivoTexto.xml
+\\Vboxsvr\share\EscribirArchivoTexto\EscribirArchivoTexto\obj\x86\Debug\ResolveAssemblyReference.cache
+\\Vboxsvr\share\EscribirArchivoTexto\EscribirArchivoTexto\obj\x86\Debug\WindowsApplication1.Resources.resources
+\\Vboxsvr\share\EscribirArchivoTexto\EscribirArchivoTexto\obj\x86\Debug\GenerateResource.read.1.tlog
+\\Vboxsvr\share\EscribirArchivoTexto\EscribirArchivoTexto\obj\x86\Debug\GenerateResource.write.1.tlog
+\\Vboxsvr\share\EscribirArchivoTexto\EscribirArchivoTexto\obj\x86\Debug\EscribirArchivoTexto.exe
+\\Vboxsvr\share\EscribirArchivoTexto\EscribirArchivoTexto\obj\x86\Debug\EscribirArchivoTexto.xml
+\\Vboxsvr\share\EscribirArchivoTexto\EscribirArchivoTexto\obj\x86\Debug\EscribirArchivoTexto.pdb
+G:\ies1819\@ DESARROLLO\2-2\EscribirArchivoTexto\EscribirArchivoTexto\obj\x86\Debug\EscribirArchivoTexto.exe
+G:\ies1819\@ DESARROLLO\2-2\EscribirArchivoTexto\EscribirArchivoTexto\obj\x86\Debug\EscribirArchivoTexto.xml
+G:\ies1819\@ DESARROLLO\2-2\EscribirArchivoTexto\EscribirArchivoTexto\obj\x86\Debug\EscribirArchivoTexto.pdb
+G:\ies1819\@ DESARROLLO\2-2\EscribirArchivoTexto\EscribirArchivoTexto\bin\Debug\EscribirArchivoTexto.exe
+G:\ies1819\@ DESARROLLO\2-2\EscribirArchivoTexto\EscribirArchivoTexto\bin\Debug\EscribirArchivoTexto.pdb
+G:\ies1819\@ DESARROLLO\2-2\EscribirArchivoTexto\EscribirArchivoTexto\bin\Debug\EscribirArchivoTexto.xml
+G:\ies1819\@ DESARROLLO\2-2\EscribirArchivoTexto\EscribirArchivoTexto\obj\x86\Debug\WindowsApplication1.Resources.resources
+G:\ies1819\@ DESARROLLO\2-2\EscribirArchivoTexto\EscribirArchivoTexto\obj\x86\Debug\EscribirArchivoTexto.vbproj.GenerateResource.Cache
+E:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\EscribirArchivoTexto\EscribirArchivoTexto\obj\x86\Debug\EscribirArchivoTexto.exe
+E:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\EscribirArchivoTexto\EscribirArchivoTexto\obj\x86\Debug\EscribirArchivoTexto.xml
+E:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\EscribirArchivoTexto\EscribirArchivoTexto\obj\x86\Debug\EscribirArchivoTexto.pdb
+E:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\EscribirArchivoTexto\EscribirArchivoTexto\bin\Debug\EscribirArchivoTexto.exe
+E:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\EscribirArchivoTexto\EscribirArchivoTexto\bin\Debug\EscribirArchivoTexto.pdb
+E:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\EscribirArchivoTexto\EscribirArchivoTexto\bin\Debug\EscribirArchivoTexto.xml
+E:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\EscribirArchivoTexto\EscribirArchivoTexto\obj\x86\Debug\WindowsApplication1.Resources.resources
+E:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\EscribirArchivoTexto\EscribirArchivoTexto\obj\x86\Debug\EscribirArchivoTexto.vbproj.GenerateResource.Cache
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\EscribirArchivoTexto\EscribirArchivoTexto\obj\x86\Debug\EscribirArchivoTexto.exe
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\EscribirArchivoTexto\EscribirArchivoTexto\obj\x86\Debug\EscribirArchivoTexto.xml
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\EscribirArchivoTexto\EscribirArchivoTexto\obj\x86\Debug\EscribirArchivoTexto.pdb
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\EscribirArchivoTexto\EscribirArchivoTexto\bin\Debug\EscribirArchivoTexto.exe
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\EscribirArchivoTexto\EscribirArchivoTexto\bin\Debug\EscribirArchivoTexto.pdb
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\EscribirArchivoTexto\EscribirArchivoTexto\bin\Debug\EscribirArchivoTexto.xml
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\EscribirArchivoTexto\EscribirArchivoTexto\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\EscribirArchivoTexto\EscribirArchivoTexto\obj\x86\Debug\EscribirArchivoTexto.vbproj.GenerateResource.Cache

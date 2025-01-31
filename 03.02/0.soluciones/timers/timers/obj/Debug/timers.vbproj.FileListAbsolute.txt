@@ -1,0 +1,87 @@
+C:\Documents and Settings\manu\Configuración local\Datos de programa\Temporary Projects\timers\bin\Debug\timers.exe
+C:\Documents and Settings\manu\Configuración local\Datos de programa\Temporary Projects\timers\bin\Debug\timers.pdb
+C:\Documents and Settings\manu\Configuración local\Datos de programa\Temporary Projects\timers\bin\Debug\timers.xml
+C:\Documents and Settings\manu\Configuración local\Datos de programa\Temporary Projects\timers\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\manu\Configuración local\Datos de programa\Temporary Projects\timers\obj\Debug\timers.Form1.resources
+C:\Documents and Settings\manu\Configuración local\Datos de programa\Temporary Projects\timers\obj\Debug\timers.Resources.resources
+C:\Documents and Settings\manu\Configuración local\Datos de programa\Temporary Projects\timers\obj\Debug\timers.vbproj.GenerateResource.Cache
+C:\Documents and Settings\manu\Configuración local\Datos de programa\Temporary Projects\timers\obj\Debug\timers.exe
+C:\Documents and Settings\manu\Configuración local\Datos de programa\Temporary Projects\timers\obj\Debug\timers.xml
+C:\Documents and Settings\manu\Configuración local\Datos de programa\Temporary Projects\timers\obj\Debug\timers.pdb
+F:\@entornos\DAI2 proyectos en clase\timers\timers\obj\Debug\timers.exe
+F:\@entornos\DAI2 proyectos en clase\timers\timers\obj\Debug\timers.xml
+F:\@entornos\DAI2 proyectos en clase\timers\timers\obj\Debug\timers.pdb
+F:\@entornos\DAI2 proyectos en clase\timers\timers\bin\Debug\timers.exe
+F:\@entornos\DAI2 proyectos en clase\timers\timers\bin\Debug\timers.pdb
+F:\@entornos\DAI2 proyectos en clase\timers\timers\bin\Debug\timers.xml
+F:\@entornos\DAI2 proyectos en clase\timers\timers\obj\Debug\ResolveAssemblyReference.cache
+F:\@entornos\DAI2 proyectos en clase\timers\timers\obj\Debug\timers.Form1.resources
+F:\@entornos\DAI2 proyectos en clase\timers\timers\obj\Debug\timers.Resources.resources
+F:\@entornos\DAI2 proyectos en clase\timers\timers\obj\Debug\timers.vbproj.GenerateResource.Cache
+F:\profesor\ies\2012-2013\desarrollo\timers\timers\obj\Debug\timers.exe
+F:\profesor\ies\2012-2013\desarrollo\timers\timers\obj\Debug\timers.xml
+F:\profesor\ies\2012-2013\desarrollo\timers\timers\obj\Debug\timers.pdb
+F:\profesor\ies\2012-2013\desarrollo\timers\timers\bin\Debug\timers.exe
+F:\profesor\ies\2012-2013\desarrollo\timers\timers\bin\Debug\timers.pdb
+F:\profesor\ies\2012-2013\desarrollo\timers\timers\bin\Debug\timers.xml
+F:\profesor\ies\2012-2013\desarrollo\timers\timers\obj\Debug\ResolveAssemblyReference.cache
+F:\profesor\ies\2012-2013\desarrollo\timers\timers\obj\Debug\timers.Form1.resources
+F:\profesor\ies\2012-2013\desarrollo\timers\timers\obj\Debug\timers.Resources.resources
+F:\profesor\ies\2012-2013\desarrollo\timers\timers\obj\Debug\GenerateResource.read.1.tlog
+F:\profesor\ies\2012-2013\desarrollo\timers\timers\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\hola\Desktop\20150108\timers\timers\obj\Debug\timers.exe
+C:\Users\hola\Desktop\20150108\timers\timers\obj\Debug\timers.xml
+C:\Users\hola\Desktop\20150108\timers\timers\obj\Debug\timers.pdb
+C:\Users\hola\Desktop\20150108\timers\timers\bin\Debug\timers.exe
+C:\Users\hola\Desktop\20150108\timers\timers\bin\Debug\timers.pdb
+C:\Users\hola\Desktop\20150108\timers\timers\bin\Debug\timers.xml
+C:\Users\hola\Desktop\20150108\timers\timers\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\hola\Desktop\20150108\timers\timers\obj\Debug\timers.Form1.resources
+C:\Users\hola\Desktop\20150108\timers\timers\obj\Debug\timers.Resources.resources
+C:\Users\hola\Desktop\20150108\timers\timers\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\hola\Desktop\20150108\timers\timers\obj\Debug\GenerateResource.write.1.tlog
+G:\ies1819\@ DESARROLLO\3-2\20150108\timers\timers\obj\Debug\timers.exe
+G:\ies1819\@ DESARROLLO\3-2\20150108\timers\timers\obj\Debug\timers.xml
+G:\ies1819\@ DESARROLLO\3-2\20150108\timers\timers\obj\Debug\timers.pdb
+G:\ies1819\@ DESARROLLO\3-2\20150108\timers\timers\bin\Debug\timers.exe
+G:\ies1819\@ DESARROLLO\3-2\20150108\timers\timers\bin\Debug\timers.pdb
+G:\ies1819\@ DESARROLLO\3-2\20150108\timers\timers\bin\Debug\timers.xml
+G:\ies1819\@ DESARROLLO\3-2\20150108\timers\timers\obj\Debug\timers.Form1.resources
+G:\ies1819\@ DESARROLLO\3-2\20150108\timers\timers\obj\Debug\timers.Resources.resources
+G:\ies1819\@ DESARROLLO\3-2\20150108\timers\timers\obj\Debug\timers.vbproj.GenerateResource.Cache
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\timers\timers\obj\Debug\timers.exe
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\timers\timers\obj\Debug\timers.xml
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\timers\timers\obj\Debug\timers.pdb
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\timers\timers\bin\Debug\timers.exe
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\timers\timers\bin\Debug\timers.pdb
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\timers\timers\bin\Debug\timers.xml
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\timers\timers\obj\Debug\timers.Form1.resources
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\timers\timers\obj\Debug\timers.Resources.resources
+F:\00-ies2122\B-DM2E-INTERFACES\03.02\timers\timers\obj\Debug\timers.vbproj.GenerateResource.Cache
+C:\Users\mc\Desktop\VB-ejercicios\03.02\timers\timers\obj\Debug\timers.exe
+C:\Users\mc\Desktop\VB-ejercicios\03.02\timers\timers\obj\Debug\timers.xml
+C:\Users\mc\Desktop\VB-ejercicios\03.02\timers\timers\obj\Debug\timers.pdb
+C:\Users\mc\Desktop\VB-ejercicios\03.02\timers\timers\bin\Debug\timers.exe
+C:\Users\mc\Desktop\VB-ejercicios\03.02\timers\timers\bin\Debug\timers.pdb
+C:\Users\mc\Desktop\VB-ejercicios\03.02\timers\timers\bin\Debug\timers.xml
+C:\Users\mc\Desktop\VB-ejercicios\03.02\timers\timers\obj\Debug\timers.Form1.resources
+C:\Users\mc\Desktop\VB-ejercicios\03.02\timers\timers\obj\Debug\timers.Resources.resources
+C:\Users\mc\Desktop\VB-ejercicios\03.02\timers\timers\obj\Debug\timers.vbproj.GenerateResource.Cache
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\timers\timers\obj\Debug\timers.exe
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\timers\timers\obj\Debug\timers.xml
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\timers\timers\obj\Debug\timers.pdb
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\timers\timers\bin\Debug\timers.exe
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\timers\timers\bin\Debug\timers.pdb
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\timers\timers\bin\Debug\timers.xml
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\timers\timers\obj\Debug\timers.Form1.resources
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\timers\timers\obj\Debug\timers.Resources.resources
+D:\00-IES2324\B-DM2E-INTERFACES\03.02\timers\timers\obj\Debug\timers.vbproj.GenerateResource.Cache
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\timers\timers\obj\Debug\timers.exe
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\timers\timers\obj\Debug\timers.xml
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\timers\timers\obj\Debug\timers.pdb
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\timers\timers\bin\Debug\timers.exe
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\timers\timers\bin\Debug\timers.pdb
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\timers\timers\bin\Debug\timers.xml
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\timers\timers\obj\Debug\timers.Form1.resources
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\timers\timers\obj\Debug\timers.Resources.resources
+D:\00-IES2425\GB-DM2E\1.material\03.02\soluciones\timers\timers\obj\Debug\timers.vbproj.GenerateResource.Cache

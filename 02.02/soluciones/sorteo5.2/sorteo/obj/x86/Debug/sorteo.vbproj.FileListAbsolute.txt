@@ -1,0 +1,55 @@
+C:\Users\manuel\documents\visual studio 2010\Projects\sorteo\sorteo\bin\Debug\sorteo.exe
+C:\Users\manuel\documents\visual studio 2010\Projects\sorteo\sorteo\bin\Debug\sorteo.pdb
+C:\Users\manuel\documents\visual studio 2010\Projects\sorteo\sorteo\bin\Debug\sorteo.xml
+C:\Users\manuel\documents\visual studio 2010\Projects\sorteo\sorteo\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\manuel\documents\visual studio 2010\Projects\sorteo\sorteo\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\manuel\documents\visual studio 2010\Projects\sorteo\sorteo\obj\x86\Debug\sorteo.vbproj.GenerateResource.Cache
+C:\Users\manuel\documents\visual studio 2010\Projects\sorteo\sorteo\obj\x86\Debug\sorteo.exe
+C:\Users\manuel\documents\visual studio 2010\Projects\sorteo\sorteo\obj\x86\Debug\sorteo.xml
+C:\Users\manuel\documents\visual studio 2010\Projects\sorteo\sorteo\obj\x86\Debug\sorteo.pdb
+C:\Users\manuel\Documents\Visual Studio 2010\Projects\sorteo4\sorteo\obj\x86\Debug\sorteo.exe
+C:\Users\manuel\Documents\Visual Studio 2010\Projects\sorteo4\sorteo\obj\x86\Debug\sorteo.xml
+C:\Users\manuel\Documents\Visual Studio 2010\Projects\sorteo4\sorteo\obj\x86\Debug\sorteo.pdb
+C:\Users\manuel\Documents\Visual Studio 2010\Projects\sorteo4\sorteo\bin\Debug\sorteo.exe
+C:\Users\manuel\Documents\Visual Studio 2010\Projects\sorteo4\sorteo\bin\Debug\sorteo.pdb
+C:\Users\manuel\Documents\Visual Studio 2010\Projects\sorteo4\sorteo\bin\Debug\sorteo.xml
+C:\Users\manuel\Documents\Visual Studio 2010\Projects\sorteo4\sorteo\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\manuel\Documents\Visual Studio 2010\Projects\sorteo4\sorteo\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\manuel\Documents\Visual Studio 2010\Projects\sorteo4\sorteo\obj\x86\Debug\sorteo.vbproj.GenerateResource.Cache
+C:\Users\profesor\Desktop\2-2\sorteo5\sorteo\obj\x86\Debug\sorteo.exe
+C:\Users\profesor\Desktop\2-2\sorteo5\sorteo\obj\x86\Debug\sorteo.xml
+C:\Users\profesor\Desktop\2-2\sorteo5\sorteo\obj\x86\Debug\sorteo.pdb
+C:\Users\profesor\Desktop\2-2\sorteo5\sorteo\bin\Debug\sorteo.exe
+C:\Users\profesor\Desktop\2-2\sorteo5\sorteo\bin\Debug\sorteo.pdb
+C:\Users\profesor\Desktop\2-2\sorteo5\sorteo\bin\Debug\sorteo.xml
+C:\Users\profesor\Desktop\2-2\sorteo5\sorteo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\profesor\Desktop\2-2\sorteo5\sorteo\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\profesor\Desktop\2-2\sorteo5\sorteo\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\profesor\Desktop\2-2\sorteo5\sorteo\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\profesor\Desktop\2-2\sorteo5\sorteo\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\ies1819\@ DESARROLLO\2-2\sorteo5\sorteo\obj\x86\Debug\sorteo.exe
+G:\ies1819\@ DESARROLLO\2-2\sorteo5\sorteo\obj\x86\Debug\sorteo.xml
+G:\ies1819\@ DESARROLLO\2-2\sorteo5\sorteo\obj\x86\Debug\sorteo.pdb
+G:\ies1819\@ DESARROLLO\2-2\sorteo5\sorteo\bin\Debug\sorteo.exe
+G:\ies1819\@ DESARROLLO\2-2\sorteo5\sorteo\bin\Debug\sorteo.pdb
+G:\ies1819\@ DESARROLLO\2-2\sorteo5\sorteo\bin\Debug\sorteo.xml
+G:\ies1819\@ DESARROLLO\2-2\sorteo5\sorteo\obj\x86\Debug\WindowsApplication1.Form1.resources
+G:\ies1819\@ DESARROLLO\2-2\sorteo5\sorteo\obj\x86\Debug\WindowsApplication1.Resources.resources
+G:\ies1819\@ DESARROLLO\2-2\sorteo5\sorteo\obj\x86\Debug\sorteo.vbproj.GenerateResource.Cache
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\sorteo5\sorteo\obj\x86\Debug\sorteo.exe
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\sorteo5\sorteo\obj\x86\Debug\sorteo.xml
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\sorteo5\sorteo\obj\x86\Debug\sorteo.pdb
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\sorteo5\sorteo\bin\Debug\sorteo.exe
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\sorteo5\sorteo\bin\Debug\sorteo.pdb
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\sorteo5\sorteo\bin\Debug\sorteo.xml
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\sorteo5\sorteo\obj\x86\Debug\WindowsApplication1.Form1.resources
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\sorteo5\sorteo\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\sorteo5\sorteo\obj\x86\Debug\sorteo.vbproj.GenerateResource.Cache
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\sorteo5 - copia\sorteo\obj\x86\Debug\sorteo.exe
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\sorteo5 - copia\sorteo\obj\x86\Debug\sorteo.xml
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\sorteo5 - copia\sorteo\obj\x86\Debug\sorteo.pdb
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\sorteo5 - copia\sorteo\bin\Debug\sorteo.exe
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\sorteo5 - copia\sorteo\bin\Debug\sorteo.pdb
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\sorteo5 - copia\sorteo\bin\Debug\sorteo.xml
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\sorteo5 - copia\sorteo\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\00-IES2425\GB-DM2E\1.material\02.02\soluciones\sorteo5 - copia\sorteo\obj\x86\Debug\sorteo.vbproj.GenerateResource.Cache
