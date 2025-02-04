@@ -1,0 +1,125 @@
+' Evento de carga del formulario
+Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    TextBox1.Text = barra
+    TextBox4.Text = barra
+    TextBox6.Text = barra
+    TextBox1.Visible = False
+    TextBox4.Visible = False
+    TextBox6.Visible = False
+    ' Ajustar tamaños de los controles
+    AjustarTamaños()
+End Sub
+
+' Método para ajustar el tamaño de los controles
+Private Sub AjustarTamaños()
+    Dim height As Integer = 38
+    TextBox1.Size = New Size(471, height)
+    TextBox4.Size = New Size(471, height)
+    TextBox6.Size = New Size(471, height)
+    TextBox2.Size = New Size(116, height)
+    TextBox3.Size = New Size(116, height)
+    TextBox5.Size = New Size(116, height)
+    TextBox7.Size = New Size(666, height)
+    TextBox8.Size = New Size(666, height)
+    Button1.Size = New Size(67, height)
+    Button2.Size = New Size(67, height)
+    Button3.Size = New Size(67, height)
+End Sub
+
+' Evento del botón 1 (control del contador rojo)
+Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    If estadoRojo = 0 Then
+        estadoRojo = 1
+        Timer1.Start()
+        direccionRojo = If(direccionRojo = 1, -1, 1)
+    Else
+        estadoRojo = 0
+        Timer1.Stop()
+    End If
+    Button1.Text = marcha(estadoRojo, direccionRojo)
+End Sub
+
+' Evento del botón 2 (control del contador verde)
+Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    If estadoVerde = 0 Then
+        estadoVerde = 1
+        Timer2.Start()
+        direccionVerde = If(direccionVerde = 1, -1, 1)
+    Else
+        estadoVerde = 0
+        Timer2.Stop()
+    End If
+    Button2.Text = marcha(estadoVerde, direccionVerde)
+End Sub
+
+' Evento del botón 3 (control del contador azul)
+Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    If estadoAzul = 0 Then
+        estadoAzul = 1
+        Timer3.Start()
+        direccionAzul = If(direccionAzul = 1, -1, 1)
+    Else
+        estadoAzul = 0
+        Timer3.Stop()
+    End If
+    Button3.Text = marcha(estadoAzul, direccionAzul)
+End Sub
+
+' Timer1 controla el incremento del contador rojo
+Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+    TextBox2.Text = rojo.ToString()
+    TextBox2.BackColor = Color.FromArgb(rojo, 0, 0)
+    ActualizarColor()
+    TextBox1.Text = barra.Substring(0, CInt(Math.Round((rojo - Min) / paso)))
+    rojo += direccionRojo
+    VerificarLimites(rojo, estadoRojo, direccionRojo, Timer1, Button1)
+End Sub
+
+' Timer2 controla el incremento del contador verde
+Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
+    TextBox3.Text = verde.ToString()
+    TextBox3.BackColor = Color.FromArgb(0, verde, 0)
+    ActualizarColor()
+    TextBox4.Text = barra.Substring(0, CInt(Math.Round((verde - Min) / paso)))
+    verde += direccionVerde
+    VerificarLimites(verde, estadoVerde, direccionVerde, Timer2, Button2)
+End Sub
+
+' Timer3 controla el incremento del contador azul
+Private Sub Timer3_Tick(sender As Object, e As EventArgs) Handles Timer3.Tick
+    TextBox5.Text = azul.ToString()
+    TextBox5.BackColor = Color.FromArgb(0, 0, azul)
+    ActualizarColor()
+    TextBox6.Text = barra.Substring(0, CInt(Math.Round((azul - Min) / paso)))
+    azul += direccionAzul
+    VerificarLimites(azul, estadoAzul, direccionAzul, Timer3, Button3)
+End Sub
+
+' Actualiza el color de la caja final RGB
+Private Sub ActualizarColor()
+    TextBox7.BackColor = Color.FromArgb(rojo, verde, azul)
+End Sub
+
+' Verifica los límites del contador y ajusta el estado
+Private Sub VerificarLimites(ByRef valor As Integer, ByRef estado As Integer, direccion As Integer, timer As Timer, boton As Button)
+    If valor > Max Then
+        valor = Max
+        estado = 0
+    End If
+    If valor < Min Then
+        valor = Min
+        estado = 0
+    End If
+    boton.Text = marcha(estado, direccion)
+End Sub
+
+' Método que devuelve el símbolo de dirección del contador
+Private Function marcha(estado As Integer, direccion As Integer) As String
+    If estado = 0 Then
+        Return "="
+    ElseIf direccion = 1 Then
+        Return ">>"
+    Else
+        Return "<<"
+    End If
+End Function

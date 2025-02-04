@@ -1,0 +1,9 @@
+C:\Users\unknow\Documents\ThisProyectos\DM2E-GBE2-256698-GuzmanFloresAdriana\DM2E-GBE2-256698-GuzmanFloresAdriana\bin\Debug\DM2E-GBE2-256698-GuzmanFloresAdriana.exe
+C:\Users\unknow\Documents\ThisProyectos\DM2E-GBE2-256698-GuzmanFloresAdriana\DM2E-GBE2-256698-GuzmanFloresAdriana\bin\Debug\DM2E-GBE2-256698-GuzmanFloresAdriana.pdb
+C:\Users\unknow\Documents\ThisProyectos\DM2E-GBE2-256698-GuzmanFloresAdriana\DM2E-GBE2-256698-GuzmanFloresAdriana\bin\Debug\DM2E-GBE2-256698-GuzmanFloresAdriana.xml
+C:\Users\unknow\Documents\ThisProyectos\DM2E-GBE2-256698-GuzmanFloresAdriana\DM2E-GBE2-256698-GuzmanFloresAdriana\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\unknow\Documents\ThisProyectos\DM2E-GBE2-256698-GuzmanFloresAdriana\DM2E-GBE2-256698-GuzmanFloresAdriana\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\unknow\Documents\ThisProyectos\DM2E-GBE2-256698-GuzmanFloresAdriana\DM2E-GBE2-256698-GuzmanFloresAdriana\obj\x86\Debug\DM2E-GBE2-256698-GuzmanFloresAdriana.vbproj.GenerateResource.Cache
+C:\Users\unknow\Documents\ThisProyectos\DM2E-GBE2-256698-GuzmanFloresAdriana\DM2E-GBE2-256698-GuzmanFloresAdriana\obj\x86\Debug\DM2E-GBE2-256698-GuzmanFloresAdriana.exe
+C:\Users\unknow\Documents\ThisProyectos\DM2E-GBE2-256698-GuzmanFloresAdriana\DM2E-GBE2-256698-GuzmanFloresAdriana\obj\x86\Debug\DM2E-GBE2-256698-GuzmanFloresAdriana.xml
+C:\Users\unknow\Documents\ThisProyectos\DM2E-GBE2-256698-GuzmanFloresAdriana\DM2E-GBE2-256698-GuzmanFloresAdriana\obj\x86\Debug\DM2E-GBE2-256698-GuzmanFloresAdriana.pdb

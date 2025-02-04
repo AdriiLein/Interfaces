@@ -84,3 +84,13 @@ D:\00-IES2425\GB-DM2E\1.material\03.03\agenda\agenda\obj\Debug\agenda.Dialog1.re
 D:\00-IES2425\GB-DM2E\1.material\03.03\agenda\agenda\obj\Debug\agenda.Form1.resources
 D:\00-IES2425\GB-DM2E\1.material\03.03\agenda\agenda\obj\Debug\agenda.Resources.resources
 D:\00-IES2425\GB-DM2E\1.material\03.03\agenda\agenda\obj\Debug\agenda.vbproj.GenerateResource.Cache
+C:\Users\unknow\Documents\VB\Interfaces\03.03\agenda\agenda\obj\Debug\agenda.exe
+C:\Users\unknow\Documents\VB\Interfaces\03.03\agenda\agenda\obj\Debug\agenda.xml
+C:\Users\unknow\Documents\VB\Interfaces\03.03\agenda\agenda\obj\Debug\agenda.pdb
+C:\Users\unknow\Documents\VB\Interfaces\03.03\agenda\agenda\bin\Debug\agenda.exe
+C:\Users\unknow\Documents\VB\Interfaces\03.03\agenda\agenda\bin\Debug\agenda.pdb
+C:\Users\unknow\Documents\VB\Interfaces\03.03\agenda\agenda\bin\Debug\agenda.xml
+C:\Users\unknow\Documents\VB\Interfaces\03.03\agenda\agenda\obj\Debug\agenda.Dialog1.resources
+C:\Users\unknow\Documents\VB\Interfaces\03.03\agenda\agenda\obj\Debug\agenda.Form1.resources
+C:\Users\unknow\Documents\VB\Interfaces\03.03\agenda\agenda\obj\Debug\agenda.Resources.resources
+C:\Users\unknow\Documents\VB\Interfaces\03.03\agenda\agenda\obj\Debug\agenda.vbproj.GenerateResource.Cache
